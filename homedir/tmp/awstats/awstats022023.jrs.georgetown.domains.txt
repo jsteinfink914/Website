@@ -1,0 +1,302 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202302 will be lost/reset.
+# Last config file used to build this data file was /home/jrsgeor2/tmp/awstats/awstats.jrs.georgetown.domains.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2019                
+POS_TIME 2691                
+POS_VISITOR 6843                
+POS_DAY 7319                
+POS_DOMAIN 3259                
+POS_LOGIN 3503                
+POS_ROBOT 3658                
+POS_WORMS 3831                
+POS_EMAILSENDER 3962                
+POS_EMAILRECEIVER 4105                
+POS_SESSION 7688                
+POS_SIDER 7877                
+POS_FILETYPES 4240                
+POS_DOWNLOADS 4476                
+POS_OS 4612                
+POS_BROWSER 4749                
+POS_SCREENSIZE 4939                
+POS_UNKNOWNREFERER 5013                
+POS_UNKNOWNREFERERBROWSER 5100                
+POS_ORIGIN 5182                
+POS_SEREFERRALS 5318                
+POS_PAGEREFS 5462                
+POS_SEARCHWORDS 5610                
+POS_KEYWORDS 5762                
+POS_MISC 2355                
+POS_ERRORS 5821                
+POS_CLUSTER 3359                
+POS_SIDER_404 5920                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230301140411 1 0 10268629680959
+FirstTime 20230201011920
+LastTime 20230226124255
+LastUpdate 20230302062142 1 0 0 0 0
+TotalVisits 20                  
+TotalUnique 10                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 10                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 35 5188181 0 1 0
+1 1 3 110382 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 3 5 111848 0 1 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 1 1 588 0 1 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 11 55 6649164 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 37 76 57873704 9 20 0
+16 2 4 111260 1 4 588
+17 0 0 0 0 0 0
+18 13 52 25538929 0 3 0
+19 4 39 7330516 0 1 0
+20 64 294 117653628 4 18 2989987
+21 1 5 6968383 0 2 0
+22 2 21 5131516 0 1 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+us 141 588 232666923
+cn 2 2 1176
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+Go\-http\-client/ 1 588 20230222162720 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+zip 1 4472034 0 0
+jpg 31 19558850 0 0
+css 95 3848570 0 0
+htm 7 193430 0 0
+html 135 130344060 0 0
+png 138 40736126 0 0
+woff 1 137124 0 0
+js 181 33296345 0 0
+pdf 1 81560 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/Steinfink_Resume.pdf 1 0 81560
+/Time_Series/_site/data/solar_radiation.zip 1 0 4472034
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+ios_iphone 217 41
+win7 2 2
+win8 1 1
+win10 366 97
+macosx15 1 1
+linux 3 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 7
+firefox92.0 3 1
+chrome49.0.2623.112 2 2
+safari16.2 217 41
+msie11.0 1 1
+chrome109.0.0.0 85 40
+chrome110.0.0.0 281 57
+chrome96.0.4664.110 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 30 30
+From1 0 0
+From2 0 0
+From3 0 0
+From4 113 560
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 23 0
+206 2 2989987
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 10
+/Time_Series/_site/site_libs/bootstrap/503a474706e406f11e0d50f4e6a285a2.css.map 1 -
+/media/system/js/core.js 1 -
+/Time_Series/_site/site_libs/bootstrap/bootstrap.bundle.min.js.map 1 -
+/wp-includes/css/buttons.css 1 -
+/EconFinal.htm 4 -
+/Time_Series/_site/Introduction.html 1 http://jrs.georgetown.domains/Time_Series/_site/about.html
+/Time_Series/site/ 2 -
+/Time_Series/_site/site_libs/quarto-html/935a306eefa94366c21e1a970dddb765.css.map 1 -
+/Time_Series/_site/DS_Images/Headshot.jpg 10 http://jrs.georgetown.domains/Time_Series/_site/about.html
+/Time_Series/_site/ 1 http://jrs.georgetown.domains/Projects.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 10
+38.42.12.34 117 441 187969208 20230226124255
+68.163.66.10 11 86 25070462 20230224202840
+107.127.42.70 5 16 7359719 20230220184142
+68.197.44.88 4 35 5188181 20230218003801
+52.40.234.104 1 3 110382 20230204150334
+172.121.222.216 1 1 0 20230204150332
+209.141.34.187 1 1 588 20230212222853
+106.75.145.200 1 1 588 20230222041806
+107.116.79.63 1 5 6968383 20230220213004
+106.75.172.160 1 1 588 20230225093419
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20230201 1 3 110382 1
+20230203 2 6 6969359 1
+20230204 2 4 110382 2
+20230206 2 4 111260 1
+20230210 35 72 57763322 1
+20230212 9 37 18179798 2
+20230214 2 4 111260 1
+20230218 4 35 5188181 1
+20230220 6 21 14328102 2
+20230222 60 286 111577521 4
+20230224 5 41 10770587 1
+20230225 4 22 798781 2
+20230226 11 55 6649164 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+2mn-5mn 1
+0s-30s 15
+30mn-1h 1
+30s-2mn 2
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 18
+/Projects.html 26 16624 0 2
+/ 23 12936 15 6
+/Time_Series/_site/about.html 17 91052 1 1
+/Time_Series/_site/EDA.html 15 43161823 1 4
+/AboutJake.html 13 32005 3 3
+/Time_Series/_site/ 11 103928 0 1
+/Time_Series/_site/Introduction.html 8 104024 0 1
+/Time_Series/_site/Data_Sources.html 7 46130707 0 0
+/Time_Series/_site/Data_Visualization.html 6 2381576 0 0
+/Data%20Structures_%20Executive%20Summary%20Report.htm 4 122816 0 0
+/NBA.html 3 2910 0 0
+/Time_Series/_site/ARMA_ARIMA_SARIMA.html 2 16764 0 0
+/4th.htm 2 47076 0 0
+/Introduction.html 2 14930 0 0
+/Time_Series/_site/site_libs/bootstrap/bootstrap-icons.woff 1 137124 0 1
+/Spotify.html 1 38250600 0 0
+/DecisionTrees.html 1 24181 0 1
+/EconFinal.htm 1 23538 0 0
+END_SIDER

@@ -1,0 +1,296 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202201 will be lost/reset.
+# Last config file used to build this data file was /home/jrsgeor2/tmp/awstats/ssl/awstats.jrs.georgetown.domains.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2023                
+POS_TIME 2682                
+POS_VISITOR 6549                
+POS_DAY 7378                
+POS_DOMAIN 3266                
+POS_LOGIN 3527                
+POS_ROBOT 3682                
+POS_WORMS 3886                
+POS_EMAILSENDER 4017                
+POS_EMAILRECEIVER 4160                
+POS_SESSION 7620                
+POS_SIDER 7798                
+POS_FILETYPES 4295                
+POS_DOWNLOADS 4471                
+POS_OS 4519                
+POS_BROWSER 4611                
+POS_SCREENSIZE 4841                
+POS_UNKNOWNREFERER 4915                
+POS_UNKNOWNREFERERBROWSER 5002                
+POS_ORIGIN 5084                
+POS_SEREFERRALS 5222                
+POS_PAGEREFS 5366                
+POS_SEARCHWORDS 5931                
+POS_KEYWORDS 6083                
+POS_MISC 2345                
+POS_ERRORS 6142                
+POS_CLUSTER 3383                
+POS_SIDER_404 6240                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220202000055 1 0 3343063329657
+FirstTime 0
+LastTime 20220129215601
+LastUpdate 20220202124256 1 0 0 0 0
+TotalVisits 22                  
+TotalUnique 19                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 19                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 11 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 1007 16 16 16391
+1 1 3 110655 0 0 0
+2 46 120 1082163 10 10 920
+3 3 8 10267156 1 2 1007
+4 0 0 0 0 0 0
+5 0 0 0 2 2 1042
+6 0 0 0 1 1 41216
+7 0 0 0 1 1 35
+8 0 0 0 0 0 0
+9 1 1 0 1 1 1007
+10 0 0 0 1 1 41216
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 1 3 110655 1 1 35
+17 5 8 10079913 0 1 0
+18 1 1 12616 4 11 13155
+19 3 4 2014 0 3 0
+20 6 42 15932210 1 2 35
+21 2 2 13635 2 7 12898
+22 0 0 0 0 0 0
+23 17 142 48976151 1 2 1007
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+cn 46 120 1082163
+us 38 212 85491370
+ru 3 3 14642
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+no_user_agent 21 101844 20220131000105 0
+survey 1 1007 20220108035051 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+png 214 61452279 0 0
+html 66 23648988 0 0
+css 19 236613 0 0
+jpg 9 759901 0 0
+svg 6 14394 0 0
+woff 21 476000 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+win10 292 80
+macosx15 43 7
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 8
+safari15.1 42 6
+chrome91.0.4472.164 1 1
+chrome96.0.4664.110 152 23
+chrome97.0.4692.99 8 3
+chrome97.0.4692.71 6 2
+chrome72.0.3626.119 120 46
+safari14.1.1 1 1
+chrome94.0.4606.61 5 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 28 28
+From1 0 0
+From2 0 0
+From3 34 108
+From4 25 199
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+https://webmail.jrs.georgetown.domains/cPanel_magic_revision_1616517441/unprotected/cpanel/fonts/open_sans/open_sans.min.css 21 21
+http://webmail.jrs.georgetown.domains 12 12
+https://georgetown.instructure.com/courses/132185/discussion_topics/718547 1 1
+https://webmail.jrs.georgetown.domains 0 19
+https://webmail.jrs.georgetown.domains/cPanel_magic_revision_1629862456/unprotected/cpanel/style_v2_optimized.css 0 55
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+401 10 452
+308 10 920
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 19
+198.54.62.252 17 142 48976151 20220111234953
+111.7.100.20 16 42 378813 20220129022815
+111.7.100.25 9 19 186470 20220129023455
+24.189.158.81 8 16 10301223 20220114162723
+111.7.100.23 6 23 152006 20220129022848
+73.200.118.120 6 42 15932210 20220120205543
+36.99.136.130 5 16 166708 20220129022819
+111.7.100.27 4 14 121472 20220129022330
+71.244.149.107 3 8 10267156 20220125033246
+36.99.136.134 3 3 38473 20220129022758
+111.7.100.26 2 2 25492 20220129022755
+176.53.217.165 1 1 1007 20220129215601
+36.99.136.132 1 1 12729 20220129022755
+52.47.202.94 1 1 0 20220105090713
+45.90.62.246 1 1 1007 20220129192054
+89.104.101.170 1 1 12628 20220129212303
+45.90.61.56 1 1 12616 20220129181509
+13.40.36.163 1 1 1007 20220108004807
+176.113.42.148 1 1 1007 20220129190351
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 8
+20220103 1 2 0 1
+20220105 6 9 10079913 2
+20220108 1 1 1007 1
+20220111 18 145 49086806 2
+20220114 1 3 110655 1
+20220120 6 42 15932210 1
+20220125 3 8 10267156 1
+20220129 51 125 1110428 13
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30s-2mn 3
+0s-30s 16
+5mn-15mn 2
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 20
+/ 42 358162 22 16
+/cPanel_magic_revision_1616517441/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.woff 7 160356 0 0
+/cPanel_magic_revision_1616517441/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.woff 7 158620 0 1
+/cPanel_magic_revision_1616517441/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.woff 7 157024 0 2
+/AboutJake.html 4 12476 0 0
+/ANLY501_Data/text_lift_interactive.html 2 1763506 0 1
+/ANLY501_Data/record_lift_graph.html 2 1765530 0 0
+/ARMandNetworking.html 2 34850 0 0
+/Introduction.html 2 14544 0 1
+/ExploringData.html 2 18664 0 0
+/DataGathering.html 1 14220 0 0
+/Conclusions.html 1 9456 0 0
+/ANLY501_Data/LinearSVMViz1.html 1 3866921 0 0
+/ANLY501_Data/LinearSVMViz.html 1 3867392 0 0
+/ANLY501_Data/3D_record.html 1 3997986 0 1
+/ANLY501_Data/RadialSVMViz.html 1 3867172 0 0
+/ANLY501_Data/3D_4_record.html 1 3997986 0 0
+/SVM.html 1 15657 0 0
+/Clustering.html 1 29041 0 0
+/NaiveBayes.html 1 15425 0 0
+END_SIDER

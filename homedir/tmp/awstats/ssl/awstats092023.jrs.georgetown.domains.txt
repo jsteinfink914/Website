@@ -1,0 +1,1152 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202309 will be lost/reset.
+# Last config file used to build this data file was /home/jrsgeor2/tmp/awstats/ssl/awstats.jrs.georgetown.domains.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2023                
+POS_TIME 2700                
+POS_VISITOR 40940               
+POS_DAY 42438               
+POS_DOMAIN 3400                
+POS_LOGIN 3700                
+POS_ROBOT 3855                
+POS_WORMS 4242                
+POS_EMAILSENDER 4373                
+POS_EMAILRECEIVER 4516                
+POS_SESSION 42894               
+POS_SIDER 43071               
+POS_FILETYPES 4651                
+POS_DOWNLOADS 4916                
+POS_OS 5399                
+POS_BROWSER 5600                
+POS_SCREENSIZE 6070                
+POS_UNKNOWNREFERER 6144                
+POS_UNKNOWNREFERERBROWSER 6231                
+POS_ORIGIN 6313                
+POS_SEREFERRALS 6449                
+POS_PAGEREFS 6630                
+POS_SEARCHWORDS 7355                
+POS_KEYWORDS 7507                
+POS_MISC 2364                
+POS_ERRORS 7566                
+POS_CLUSTER 3556                
+POS_SIDER_404 7692                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20231001015414 15 2149 9893357362536
+FirstTime 20230901015006
+LastTime 20230930220908
+LastUpdate 20231001123909 15 0 14 0 0
+TotalVisits 36                  
+TotalUnique 34                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 38                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 5 5798 18 24 63872
+1 33 54 19759645 1 22 49621
+2 0 0 0 2 4 3896433
+3 2 6 340226 6 13 10672978
+4 2 2 13189 2 4 3918214
+5 4 5 109754 6 12 4795063
+6 3 3 1176 1 4 5439
+7 4 4 10659 3 7 119346
+8 5 5 13776 5 13 887484
+9 1 2 109166 7 11 9205
+10 1 1 588 8 29 1087435
+11 2 2 588 6 10 5189575
+12 7 8 123535 4 12 23026
+13 0 0 0 3 5 50192
+14 3 3 10071 4 7 2409
+15 3 3 13188 4 10 137724
+16 1 1 588 5 10 2099927
+17 0 0 0 4 8 3952159
+18 2 2 588 3 6 4858381
+19 30 30 19520890 3 5 4099
+20 1 1 588 3 5 18601
+21 85 119 54289376 667 754 5612
+22 2 2 1176 1 6 356517
+23 1 3 110459 2 7 883673
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 195 254 93879523
+in 1 3 217156
+gb 1 1 12611
+de 0 1 108578
+ua 0 1 108578
+hk 0 1 108578
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+SemrushBot/ 40 28288441 20230929071944 0
+bingbot/ 29 13702921 20230928200439 0
+feed 23 800758 20230905073546 0
+no_user_agent 15 8820 20230930000115 0
+Googlebot/ 10 7995 20230929215006 0
+LinkedInBot/ 2 217156 20230918182142 0
+survey 1 588 20230907124714 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+js 18 4078028 0 0
+svg 3 5931 0 0
+png 17 4999904 0 0
+json 4 1330033 0 0
+htm 7 193430 0 0
+css 16 460642 0 0
+Unknown 2 25381 0 0
+html 178 80335618 0 0
+pdf 1 81560 0 0
+woff 6 136000 0 0
+jpg 9 2788497 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 10
+/ANLY501_Data/NB_Text.txt 1 0 5909
+/ANLY501_Data/DataCleaningR.txt 1 0 23271
+/Steinfink_Resume.pdf 1 0 81560
+/ANLY501_Data/Sportradar_API.txt 1 0 4131
+/ANLY501_Data/Scraping2020_2k_rankings.txt 1 0 2959
+/ANLY501_Data/CleaningTextData.txt 1 0 4723
+/ANLY501_Data/Changing_Labels.txt 1 0 1311
+/ANLY501_Data/Merging_2k_rankings.txt 1 0 1724
+/ANLY501_Data/All_NBA_data.txt 1 0 1118
+/ANLY501_Data/Decision_Tree_formatting_text.txt 1 0 3558
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+android 1 0
+win2000 2 2
+macosx15 18 9
+win7 1 1
+macosx 142 115
+ios_iphone 6 2
+macosx6 1 1
+linux 46 25
+winxp 5 5
+macosx5 2 2
+win10 37 35
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 23
+safari16.5 11 4
+chrome90.0.4430.61 1 1
+edge18 2 2
+chrome117.0.0.0 1 0
+firefox82.0 1 1
+chrome112.0.0.0 32 32
+chrome14.0.803.0 2 2
+chrome115.0.5790.170 29 8
+mozilla 7 7
+chrome87.0.4280.88 107 80
+safari16.4 3 3
+chrome108.0.0.0 12 12
+chrome104.0.0.0 1 1
+opera9.62 2 2
+firefox112.0 30 30
+firebird 2 2
+safari16.6 7 2
+chrome4.0.223.2 2 2
+chrome116.0.0.0 3 0
+msie10.0 1 1
+safari2.0.2 2 2
+chrome60.0.3112.90 1 1
+safari3.0.1 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 187 214
+From1 0 0
+From2 0 5
+From3 6 27
+From4 4 15
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 0 4
+www_google_de 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+https://webmail.jrs.georgetown.domains/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/open_sans.min.css 3 3
+https://cpanel.jrs.georgetown.domains/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/open_sans.min.css 3 3
+https://webmail.jrs.georgetown.domains 0 3
+https://webmail.jrs.georgetown.domains/cPanel_magic_revision_1687318472/unprotected/cpanel/style_v2_optimized.css 0 7
+https://cpanel.jrs.georgetown.domains 0 3
+https://cpanel.jrs.georgetown.domains/cPanel_magic_revision_1687318472/unprotected/cpanel/style_v2_optimized.css 0 8
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+206 1 59545
+401 5 243
+404 841 0
+503 4 0
+301 2 518
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 747
+/Time_Series/_site/site_libs/src/traces/scatterpolargl 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/order-segments 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/random 1 -
+/src/traces/heatmap 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/geojson 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/histogram2d 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/choropleth 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/validate-symbol 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/median 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/length 1 -
+/ANLY501_Data/normalize 1 -
+/ANLY501_Data/calendars 1 -
+/Time_Series/_site/site_libs/quarto-nav/index.html 1 -
+/ANLY501_Data/indicator 1 -
+/LinearSVMViz.html 1 -
+/Time_Series/_site/site_libs/src/traces/choropleth 1 -
+/src/traces/isosurface 1 -
+/ANLY501_Data/angle 1 -
+/ANLY501_Data/lib/delaunay 1 -
+/ANLY501_Data/input_slider 1 -
+/ANLY501_Data/box 1 -
+/ANLY501_Data/lib/str-to-bn 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lookAt 1 -
+/ANLY501_Data/scatter3d 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/readable-stream/lib/internal/streams/end-of-stream.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/builtins 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/camera.js 1 -
+/number/to-pos-integer 1 -
+/Time_Series/_site/site_libs/crosstalk-1.2.0/js/input 1 -
+/ANLY501_Data/waterfall 1 -
+/Time_Series/_site/site_libs/src/traces/surface 1 -
+/ANLY501_Data/lib/closest-point 1 -
+/ANLY501_Data/lib/parsers_sync 1 -
+/mrgmbofj.php 1 www.google.com
+/Time_Series/_site/site_libs/plotly-main-2.5.1/readable-stream/lib/_stream_writable.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/chnd 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/is-iterable 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/private/generate-name 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/internal/streams/state 1 -
+/quarto-html/anchor.min.js 1 -
+/ANLY501_Data/lib/is-bn 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/parse 1 -
+/src/traces/parcoords 1 -
+/Time_Series/_site/site_libs/src/traces/splom 1 -
+/ANLY501_Data/lib/geojson 1 -
+/ANLY501_Data/parse_sync/png 1 -
+/ANLY501_Data/lib/text.js 2 -
+/ANLY501_Data/lib/filter 1 -
+/ANLY501_Data/mul 1 -
+/Time_Series/_site/site_libs/src/traces/treemap 1 -
+/ANLY501_Data/transformQuat 1 -
+/src/traces/scatter3d 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/box 1 -
+/ANLY501_Data/fromValues 1 -
+/Time_Series/_site/site_libs/src/traces/scattergeo 1 -
+/ANLY501_Data/lib/ch2d 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/epsilon 1 -
+/ANLY501_Data/lib/util 1 -
+/ANLY501_Data/doConvert.js 2 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/is 1 -
+/ANLY501_Data/pointcloud 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/parse_sync/avif 1 -
+/ANLY501_Data/lib/triangulation 1 -
+/common 1 -
+/ANLY501_Data/streamtube 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/num-to-bn 1 -
+/Time_Series/_site/site_libs/crosstalk-1.2.0/js/events 1 -
+/src/traces/bar 1 -
+/ANLY501_Data/lookAt 1 -
+/src/traces/volume 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/grid 1 -
+/ANLY501_Data/lib/get-simple-string 1 -
+/quarto-html/popper.min.js 1 -
+/ANLY501_Data/lib/create-attributes 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/compile_sort.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/linked-list 1 -
+/3D_record.html 1 -
+/ANLY501_Data/lib/segment-chainer 1 -
+/Time_Series/_site/headroom.js 2 -
+/src/traces/choropleth 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/set-prototype-of/is-implemented 1 -
+/src/traces/parcats 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/pie 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/closest-point 1 -
+/ANLY501_Data/lib/ctz 1 -
+/ANLY501_Data/lib/runtime-reflect 1 -
+/ANLY501_Data/random 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/text.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/str-to-bn 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/end-of-stream 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/negate 1 -
+/Time_Series/_site/site_libs/src/traces/scattercarpet 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/support/isBuffer 1 -
+/ANLY501_Data/lib/glyphs 1 -
+/bootstrap/bootstrap-icons.css 1 -
+/ANLY501_Data/squaredDistance 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/get 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/identity 1 -
+/ANLY501_Data/var 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/fromXRotation 1 -
+/function/is-function 1 -
+/sitemap_index.xml 2 -
+/Time_Series/_site/site_libs/src/traces/pointcloud 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/contour 1 -
+/Time_Series/_site/site_libs/src/traces/ohlc 1 -
+/Time_Series/errors 1 -
+/ANLY501_Data/bn.js 2 -
+/ANLY501_Data/parse_sync/ico 1 -
+/ANLY501_Data/lib/ticks.js 2 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/for-each 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/icicle 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/vao-emulated.js 1 -
+/ANLY501_Data/partition 1 -
+/Time_Series/_site/site_libs/quarto-search/Fuse.js 1 -
+/%5C/index%5C.html 1 -
+/ANLY501_Data/fromYRotation 1 -
+/ANLY501_Data/input 1 -
+/Time_Series/_site/site_libs/string/coerce 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/ohlc 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/plotly.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/shaders 1 -
+/ANLY501_Data/parcoords 1 -
+/sitemap.xml.gz 2 -
+/src/traces/box 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/add 1 -
+/ANLY501_Data/densitymapbox 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/stringify 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/vao-native.js 1 -
+/ANLY501_Data/carpet 1 -
+/ANLY501_Data/lib/lines.js 2 -
+/Time_Series/_site/site_libs/crosstalk-1.2.0/js/util 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/sub 1 -
+/ANLY501_Data/exactEquals 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/histogram2dcontour 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/fromRotationTranslation 1 -
+/ANLY501_Data/set-prototype-of/shim 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/is-value 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/scatterpolar 1 -
+/Time_Series/_site/object/valid-value 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/perspectiveFromFieldOfView 1 -
+/ANLY501_Data/is-iterable 1 -
+/sitemap.xml 4 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/internal/streams/async_iterator 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/bn.js 1 -
+/ANLY501_Data/str 1 -
+/ANLY501_Data/array 1 -
+/Time_Series/_site/site_libs/array/from 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/isosurface 1 -
+/ANLY501_Data/lib/ch1d 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/rotate 1 -
+/ANLY501_Data/scatterpolar 1 -
+/ANLY501_Data/lib/monotone 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/common 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/angle 1 -
+/src/traces/treemap 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/normalize 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/calendars 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/translate 1 -
+/Time_Series/_site/site_libs/src/traces/table 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/process/browser.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/valid-iterable 1 -
+/Time_Series/_site/site_libs/src/traces/pie 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/array 1 -
+/ANLY501_Data/get 1 -
+/src/traces/waterfall 1 -
+/Time_Series/_site/site_libs/src/traces/waterfall 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/set-prototype-of/shim 1 -
+/ANLY501_Data/clone 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/groupby 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/readable-stream/lib/_stream_transform.js 1 -
+/Time_Series/_site/site_libs/crosstalk-1.2.0/js/filterset 1 -
+/ANLY501_Data/rgb 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/scatter3d 1 -
+/src/traces/candlestick 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/fromScaling 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/internal/streams/destroy 1 -
+/ANLY501_Data/lib/compile_sort.js 2 -
+/src/traces/funnelarea 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/funnel 1 -
+/is-object 1 -
+/ANLY501_Data/lib/num-to-bn 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/is-native-implemented 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/_stream_readable 1 -
+/ANLY501_Data/input_selectize 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/parse_sync/tiff 1 -
+/ANLY501_Data/fromXRotation 1 -
+/Time_Series/_site/Fuse.js 2 -
+/array/from 1 -
+/src/traces/scatterternary 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/build-log 1 -
+/lib/_stream_writable.js 1 -
+/Time_Series/_site/string/is-string 1 -
+/jquery-3.5.1/jquery.min.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/debug 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/choroplethmapbox 1 -
+/src/traces/heatmapgl 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/squaredLength 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/ch1d 1 -
+/Time_Series/_site/site_libs/create 1 -
+/lib/internal/streams/end-of-stream.js 1 -
+/ANLY501_Data/fromQuat 1 -
+/Time_Series/_site/site_libs/src/transforms/sort 1 -
+/ANLY501_Data/funnel 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/shader 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/is-implemented 1 -
+/ANLY501_Data/scattergeo 1 -
+/ANLY501_Data/index 1 -
+/src/traces/funnel 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/valid-value 1 -
+/ANLY501_Data/shim 1 -
+/src/traces/choroplethmapbox 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/valid-callable 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/brute 1 -
+/quarto-html/tippy.umd.min.js 1 -
+/src/traces/pie 1 -
+/ANLY501_Data/len 1 -
+/Time_Series/_site/site_libs/crosstalk-1.2.0/js/input_checkboxgroup 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/sweep 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/funnelarea 1 -
+/bootstrap/bootstrap.min.css 1 -
+/ANLY501_Data/parse_sync/psd 1 -
+/ANLY501_Data/parse_sync/jpeg 1 -
+/ANLY501_Data/quad 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/fromQuat 1 -
+/Time_Series/_site/t.action 1 -
+/valid-value 1 -
+/LinearSVMViz1.html 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/scaleAndAdd 1 -
+/ANLY501_Data/lib/vao-emulated.js 2 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/is-object 1 -
+/Time_Series/_site/site_libs/src/traces/sankey 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/main 1 -
+/ANLY501_Data/translate 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/string 1 -
+/ANLY501_Data/frustum 1 -
+/ANLY501_Data/parse_sync/webp 1 -
+/ANLY501_Data/add 1 -
+/ANLY501_Data/group 1 -
+/ANLY501_Data/stringify 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/image 1 -
+/src/traces/scattermapbox 1 -
+/src/traces/indicator 1 -
+/ANLY501_Data/lib/shader-cache 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/parse_sync/ico 1 -
+/ANLY501_Data/length 1 -
+/ANLY501_Data/vis.js 2 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/to-integer 1 -
+/ANLY501_Data/determinant 1 -
+/ANLY501_Data/rotateX 1 -
+/ANLY501_Data/is-symbol 1 -
+/3D_4_record.html 1 -
+/ANLY501_Data/lib/quatFromFrame 1 -
+/ANLY501_Data/dot 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/doConvert.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/scattercarpet 1 -
+/ANLY501_Data/heatmap 1 -
+/ANLY501_Data/contourcarpet 1 -
+/ANLY501_Data/colorScale 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/cross 1 -
+/Time_Series/_site/site_libs/quarto-search/search.json 1 -
+/ANLY501_Data/rotate 1 -
+/ANLY501_Data/max 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/sqrDist 1 -
+/ANLY501_Data/transpose 1 -
+/ANLY501_Data/histogram2d 1 -
+/Time_Series/_site/site_libs/src/traces/violin 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/create-store.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/rotateX 1 -
+/crosstalk-1.2.0/css/crosstalk.min.css 1 -
+/typedarray-0.1/typedarray.min.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/epsilon 1 -
+/Time_Series/_site/site_libs/quarto-html/span.do 1 -
+/Time_Series/_site/site_libs/valid-value 1 -
+/ANLY501_Data/filter 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/create_mesh 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/readable-stream/lib/_stream_passthrough.js 1 -
+/ANLY501_Data/parse_sync/svg 1 -
+/ANLY501_Data/parse_sync/avif 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/scale 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/to-short-string 1 -
+/plotly-binding-4.10.0/plotly.js 1 -
+/Time_Series/_site/site_libs/miaf_utils 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/multiply 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/mesh3d 1 -
+/Time_Series/_site/clipboard.js 2 -
+/ANLY501_Data/volume 1 -
+/ANLY501_Data/violin 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/sort 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/get-simple-string 1 -
+/sitemaps.xml 1 -
+/Time_Series/_site/object/is-value 1 -
+/src/traces/contourcarpet 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/dist 1 -
+/Time_Series/_site/object/valid-callable 1 -
+/src/traces/splom 1 -
+/ANLY501_Data/lib/GLError 1 -
+/Time_Series/_site/number/to-pos-integer 1 -
+/Time_Series/_site/site_libs/src/traces/contour 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/barpolar 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/bn-sign 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/parse_sync/png 1 -
+/src/traces/violin 1 -
+/miaf_utils 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/round 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/rotateZ 1 -
+/ANLY501_Data/sqrDist 1 -
+/ANLY501_Data/parcats 1 -
+/text_lift_interactive.html 1 -
+/src/traces/surface 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/_stream_transform 1 -
+/Time_Series/_site/site_libs/prototype/is 1 -
+/ANLY501_Data/input_checkboxgroup 1 -
+/RadialSVMViz.html 1 -
+/ANLY501_Data/divide 1 -
+/ANLY501_Data/contour 1 -
+/ANLY501_Data/icicle 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/literals 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/reflect 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/pointcloud 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/parse_sync/psd 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/colorScale 1 -
+/quarto-search/autocomplete.umd.js 1 -
+/Time_Series/_site/site_libs/value/is 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/contourcarpet 1 -
+/ANLY501_Data/transformMat3 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/operators 1 -
+/ANLY501_Data/histogram 1 -
+/ANLY501_Data/lib/rat-seg-intersect 1 -
+/Time_Series/_site/site_libs/src/traces/parcats 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/fromYRotation 1 -
+/ANLY501_Data/assign 1 -
+/ANLY501_Data/set 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/create-attributes 1 -
+/Time_Series/_site/site_libs/src/traces/heatmap 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/cone 1 -
+/Time_Series/_site/site_libs/is-object 1 -
+/Time_Series/_site/site_libs/errors 1 -
+/ANLY501_Data/round 1 -
+/ANLY501_Data/histogram2dcontour 1 -
+/ANLY501_Data/isosurface 1 -
+/ANLY501_Data/min 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/str 1 -
+/ANLY501_Data/is-object 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/readable-stream/lib/internal/streams/pipeline.js 1 -
+/ANLY501_Data/is-rat 1 -
+/ANLY501_Data/squaredLength 1 -
+/quarto-nav/headroom.min.js 1 -
+/plotly-main-2.5.1/plotly-latest.min.js 1 -
+/ANLY501_Data/equals 1 -
+/ANLY501_Data/sankey 1 -
+/plotly-htmlwidgets-css-2.5.1/plotly-htmlwidgets.css 1 -
+/validate-symbol 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/create 1 -
+/ANLY501_Data/lib/epsilon 1 -
+/ANLY501_Data/lib/sweep 1 -
+/src/traces/scatterpolargl 1 -
+/Time_Series/_site/function/is-function 1 -
+/ANLY501_Data/do-bind.js 2 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/scattermapbox 1 -
+/ANLY501_Data/sunburst 1 -
+/Time_Series/_site/site_libs/is-value 1 -
+/ANLY501_Data/shaders 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/waterfall 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/len 1 -
+/ANLY501_Data/scale 1 -
+/ANLY501_Data/bn-sign 1 -
+/Time_Series/_site/site_libs/src/transforms/groupby 1 -
+/ANLY501_Data/fromTranslation 1 -
+/ANLY501_Data/lib/shaders 1 -
+/ANLY501_Data/lib/operators 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/determinant 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/quatFromFrame 1 -
+/ANLY501_Data/lib/private/setup/standard-symbols 1 -
+/lib/_stream_readable.js 1 -
+/ANLY501_Data/scatterpolargl 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/parsers_sync 1 -
+/ANLY501_Data/util 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/shader-cache 1 -
+/src/traces/image 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/shaders 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/create-uniforms 1 -
+/quarto-html/tippy.css 1 -
+/src/components/calendars 1 -
+/quarto-nav/quarto-nav.js 1 -
+/ANLY501_Data/lib/background.js 2 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/box 1 -
+/ANLY501_Data/create_mesh 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/rat-seg-intersect 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/lines.js 1 -
+/Time_Series/_site/site_libs/crosstalk-1.2.0/js/input_selectize 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/background.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/densitymapbox 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/exactEquals 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/dot 1 -
+/Time_Series/_site/site_libs/lib/resolve-exception 1 -
+/ANLY501_Data/linked-list 1 -
+/ANLY501_Data/heatmapgl 1 -
+/ANLY501_Data/is-native-implemented 1 -
+/ANLY501_Data/lib/builtins 1 -
+/Time_Series/_site/site_libs/src/traces/icicle 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/GLError 1 -
+/ANLY501_Data/groupby 1 -
+/Time_Series/_site/site_libs/crosstalk-1.2.0/js/input_slider 1 -
+/ANLY501_Data/filterset 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/filter 1 -
+/Time_Series/_site/site_libs/src/traces/histogram 1 -
+/Time_Series/_site/site_libs/src/traces/funnelarea 1 -
+/ANLY501_Data/multiply 1 -
+/ANLY501_Data/brute 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/safe-to-string 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/index 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/is-rat 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/distance 1 -
+/Time_Series/_site/site_libs/src/traces/volume 1 -
+/ANLY501_Data/median 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/polyfill 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/scatterternary 1 -
+/src/traces/sunburst 1 -
+/src/traces/scattercarpet 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/monotone 1 -
+/ANLY501_Data/lerp 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/literals 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/util 1 -
+/Time_Series/_site/site_libs/src/transforms/filter 1 -
+/ANLY501_Data/sub 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/sweep 1 -
+/ANLY501_Data/support/isBuffer 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/scattergl 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/forEach 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/fromRotation 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/readable-stream/lib/_stream_duplex.js 1 -
+/Time_Series/_site/site_libs/src/traces/densitymapbox 1 -
+/src/transforms/sort 1 -
+/Time_Series/_site/site_libs/src/traces/candlestick 1 -
+/ANLY501_Data/to-integer 1 -
+/robots.txt 69 -
+/ANLY501_Data/lib/segment-selector 1 -
+/ANLY501_Data/barpolar 1 -
+/ANLY501_Data/lib/literals-300es 1 -
+/src/traces/barpolar 1 -
+/Time_Series/_site/site_libs/src/traces/histogram2d 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/segment-chainer 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/partition 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/codegen 1 -
+/src/traces/scattergl 1 -
+/ANLY501_Data/lib/box 1 -
+/object/valid-callable 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/delaunay 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/mul 1 -
+/src/transforms/aggregate 1 -
+/ANLY501_Data/lib/build-log 1 -
+/Time_Series/_site/site_libs/function/is 1 -
+/Time_Series/_site/site_libs/src/traces/histogram2dcontour 1 -
+/ANLY501_Data/inverse 1 -
+/ANLY501_Data/distance 1 -
+/Time_Series/_site/site_libs/src/traces/sunburst 1 -
+/ANLY501_Data/implementation 1 -
+/ANLY501_Data/lib/rationalize 1 -
+/Time_Series/_site/site_libs/src/traces/scatter3d 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/equals 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/trim-leaves 1 -
+/Time_Series/_site/site_libs/crosstalk-1.2.0/js/group 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/sqrLen 1 -
+/quarto-search/quarto-search.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/heatmapgl 1 -
+/ANLY501_Data/lib/intersecter 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/quad 1 -
+/ANLY501_Data/lib/private/generate-name 1 -
+/ANLY501_Data/parse_sync/tiff 1 -
+/kePrint-0.0.1/kePrint.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/shim 1 -
+/Time_Series/_site/site_libs/src/traces/bar 1 -
+/ANLY501_Data/sort 1 -
+/ANLY501_Data/create 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/violin 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/ceil 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/transformMat3 1 -
+/ANLY501_Data/valid-value 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/fromZRotation 1 -
+/object/valid-value 1 -
+/is-value 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/implementation 1 -
+/Time_Series/_site/site_libs/src/traces/streamtube 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/perspective 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/internal/streams/from 1 -
+/ANLY501_Data/identity 1 -
+/Time_Series/_site/site_libs/src/traces/barpolar 1 -
+/ANLY501_Data/1.0/numbers 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/floor 1 -
+/htmlwidgets-1.5.4/htmlwidgets.js 1 -
+/src/traces/scattergeo 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lerp 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/divide 1 -
+/ANLY501_Data/lib/bn-to-num 1 -
+/object/is-value 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/private/setup/standard-symbols 1 -
+/ANLY501_Data/image 1 -
+/src/traces/histogram2d 1 -
+/ANLY501_Data/lib/chnd 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/line 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/parse_sync/svg 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/_stream_writable 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/min 1 -
+/ANLY501_Data/treemap 1 -
+/ANLY501_Data/bar 1 -
+/ANLY501_Data/pie 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/1.0/numbers 1 -
+/ANLY501_Data/adjoint 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/vtext 1 -
+/clipboard/clipboard.min.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/bn-sign 1 -
+/Time_Series/_site/site_libs/src/traces/carpet 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/core 1 -
+/Time_Series/_site/site_libs/src/traces/image 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/parse_sync/jpeg 1 -
+/ANLY501_Data/lib/trim-leaves 1 -
+/src/lib 1 -
+/ANLY501_Data/fromScaling 1 -
+/ANLY501_Data/shaders/index 1 -
+/ANLY501_Data/surface 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/reflect 1 -
+/ANLY501_Data/rotateY 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/transformQuat 1 -
+/Time_Series/_site/site_libs/src/traces/heatmapgl 1 -
+/src/traces/cone 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/polytope-closest-point/lib/closest_point_2d.js 1 -
+/ANLY501_Data/set-prototype-of/is-implemented 1 -
+/Time_Series/_site/site_libs/crosstalk-1.2.0/js/filter 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/segment-selector 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/table 1 -
+/ANLY501_Data/cross 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/indicator 1 -
+/string/is-string 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/bar 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/triangulation 1 -
+/ANLY501_Data/polytope-closest-point/lib/closest_point_2d.js 2 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/is-symbol 1 -
+/Time_Series/_site/site_libs/keys 1 -
+/ANLY501_Data/rotateZ 1 -
+/ANLY501_Data/choropleth 1 -
+/Time_Series/_site/site_libs/exif_utils 1 -
+/src/traces/ohlc 1 -
+/ANLY501_Data/dist 1 -
+/ANLY501_Data/scattercarpet 1 -
+/src/core 1 -
+/ANLY501_Data/camera.js 2 -
+/Time_Series/_site/site_libs/quarto-html/listings.json 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/shaders/index 1 -
+/ANLY501_Data/is-implemented 1 -
+/Time_Series/_site/site_libs/src/traces/indicator 1 -
+/lib/internal/streams/pipeline.js 1 -
+/ANLY501_Data/builtins 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/private/setup/symbol-registry 1 -
+/src/transforms/groupby 1 -
+/Time_Series/_site/site_libs/src/components/calendars 1 -
+/record_lift_graph.html 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/max 1 -
+/ANLY501_Data/selection 1 -
+/src/traces/carpet 1 -
+/ANLY501_Data/lib/bn-sign 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/intersecter 1 -
+/ANLY501_Data/lib/create-uniforms 1 -
+/ANLY501_Data/scaleAndAdd 1 -
+/Time_Series/_site/site_libs/quarto-nav/headroom.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/streamtube 1 -
+/src/traces/streamtube 1 -
+/lib/_stream_duplex.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/invert 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/assign 1 -
+/ANLY501_Data/parse_sync/bmp 1 -
+/Time_Series/_site/site_libs/crosstalk-1.2.0/js/selection 1 -
+/ANLY501_Data/lib/private/setup/symbol-registry 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/fromTranslation 1 -
+/Time_Series/_site/site_libs/src/traces/contourcarpet 1 -
+/ANLY501_Data/fromRotation 1 -
+/ANLY501_Data/candlestick 1 -
+/function/noop 1 -
+/quarto-html/quarto.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/div 1 -
+/Time_Series/_site/site_libs/src/traces/scattergl 1 -
+/Time_Series/_site/site_libs/src/traces/scattermapbox 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/treemap 1 -
+/Time_Series/_site/site_libs/src/traces/mesh3d 1 -
+/Time_Series/_site/site_libs/src/traces/cone 1 -
+/ANLY501_Data/core 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/copy 1 -
+/Time_Series/_site/site_libs/src/traces/funnel 1 -
+/ANLY501_Data/for-each 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/volume 1 -
+/ANLY501_Data/lib/text 1 -
+/lib/_stream_transform.js 1 -
+/Time_Series/_site/site_libs/src/core 1 -
+/ANLY501_Data/copy 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/squaredDistance 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/rotateY 1 -
+/ANLY501_Data/mesh3d 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/is-bn 1 -
+/ANLY501_Data/literals 1 -
+/ANLY501_Data/lib/intersect 1 -
+/ANLY501_Data/perspectiveFromFieldOfView 1 -
+/ANLY501_Data/transformMat4 1 -
+/ANLY501_Data/sqrLen 1 -
+/src/traces/icicle 1 -
+/math/sign 1 -
+/ANLY501_Data/_iterate 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/rgb 1 -
+/src/traces/contour 1 -
+/ANLY501_Data/aggregate 1 -
+/ANLY501_Data/negate 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/parse_sync/webp 1 -
+/src/traces/pointcloud 1 -
+/ANLY501_Data/scatterternary 1 -
+/ANLY501_Data/table 1 -
+/ANLY501_Data/lib/grid 1 -
+/ANLY501_Data/.test 2 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/clone 1 -
+/function/is-arguments 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/builtins 1 -
+/ANLY501_Data/ortho 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/sankey 1 -
+/ANLY501_Data/lib/shader 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/fromValues 1 -
+/ANLY501_Data/valid-callable 1 -
+/ANLY501_Data/GLError 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/subtract 1 -
+/lib/_stream_passthrough.js 1 -
+/Time_Series/_site/site_libs/clipboard/t.action 1 -
+/ANLY501_Data/valid-iterable 1 -
+/bootstrap/bootstrap.min.js 1 -
+/Time_Series/_site/site_libs/src/traces/isosurface 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/heatmap 1 -
+/Time_Series/_site/site_libs/math/sign 1 -
+/Time_Series/_site/site_libs/src/traces/parcoords 1 -
+/ANLY501_Data/plotly.js 2 -
+/ANLY501_Data/parse 1 -
+/ANLY501_Data/subtract 1 -
+/uqbkxsru.php 1 www.google.com
+/Time_Series/_site/site_libs/src/lib 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/_iterate 1 -
+/lib/closest_point_2d.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/runtime-reflect 1 -
+/browser.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/scatterpolargl 1 -
+/ANLY501_Data/sweep 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/readable-stream/lib/_stream_readable.js 1 -
+/crosstalk-1.2.0/js/crosstalk.min.js 1 -
+/ANLY501_Data/parse_sync/gif 1 -
+/es6-draft.html 1 -
+/ANLY501_Data/cone 1 -
+/src/traces/table 1 -
+/ANLY501_Data/invert 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/sunburst 1 -
+/src/transforms/filter 1 -
+/Time_Series/_site/site_libs/src/traces/choroplethmapbox 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/carpet 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/_stream_duplex 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/internal/streams/buffer_list 1 -
+/ANLY501_Data/validate-symbol 1 -
+/src/traces/mesh3d 1 -
+/ANLY501_Data/fromRotationTranslation 1 -
+/Time_Series/_site/listings.json 1 -
+/ANLY501_Data/events 1 -
+/exif_utils 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/histogram 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/candlestick 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/literals-300es 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/surface 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/parcats 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/ch2d 1 -
+/src/traces/sankey 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/hidden-store.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/bn-to-num 1 -
+/src/traces/scatterpolar 1 -
+/ANLY501_Data/ohlc 1 -
+/Time_Series/_site/site_libs/src/traces/box 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/parse_sync/bmp 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/transformMat4 1 -
+/ANLY501_Data/funnelarea 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/ortho 1 -
+/Time_Series/_site/site_libs/src/traces/scatterternary 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/ctz 1 -
+/ANLY501_Data/fromZRotation 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/internal/streams/stream 1 -
+/Time_Series/_site/site_libs/main 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/aggregate 1 -
+/wp-plain.php 2 www.google.com
+/ANLY501_Data/lib/cube.js 2 -
+/ANLY501_Data/epsilon 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/parse_sync/gif 1 -
+/ANLY501_Data/polyfill 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/parcoords 1 -
+/Time_Series/_site/site_libs/src/transforms/aggregate 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/do-bind.js 1 -
+/Time_Series/_site/site_libs/function/noop 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/set 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/rationalize 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/text 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/builtins-300es 1 -
+/lightable-0.0.1/lightable.css 1 -
+/Time_Series/validate-symbol 1 -
+/ANLY501_Data/scattergl 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/glyphs 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/GLError 1 -
+/src/traces/histogram 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/intersect 1 -
+/ANLY501_Data/lib/reflect 1 -
+/ANLY501_Data/string 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/transpose 1 -
+/ANLY501_Data/ceil 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/frustum 1 -
+/ANLY501_Data/lib/literals 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/adjoint 1 -
+/plots/plots.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/filter 1 -
+/ANLY501_Data/choroplethmapbox 1 -
+/ANLY501_Data/is-value 1 -
+/ANLY501_Data/common 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/num-to-bn 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/ticks.js 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/inverse 1 -
+/ANLY501_Data/scattermapbox 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/scattergeo 1 -
+/ANLY501_Data/lib/line 1 -
+/Time_Series/_site/site_libs/crosstalk-1.2.0/js/var 1 -
+/Time_Series/_site/site_libs/object/is 1 -
+/ANLY501_Data/forEach 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/lib/cube.js 1 -
+/ANLY501_Data/num-to-bn 1 -
+/Time_Series/_site/function/is-arguments 1 -
+/quarto-search/fuse.min.js 1 -
+/Time_Series/_site/site_libs/quarto-html/index.html 1 -
+/src/traces/densitymapbox 1 -
+/ANLY501_Data/lib/vao-native.js 2 -
+/quarto-html/quarto-syntax-highlighting-dark.css 1 -
+/Time_Series/_site/site_libs/src/traces/scatterpolar 1 -
+/ANLY501_Data/lib/builtins-300es 1 -
+/ANLY501_Data/div 1 -
+/Time_Series/_site/site_libs/plotly-main-2.5.1/splom 1 -
+/Time_Series/_site/site_libs/common 1 -
+/src/traces/histogram2dcontour 1 -
+/Time_Series/_site/site_libs/clipboard/clipboard.js 2 -
+/create 1 -
+/ANLY501_Data/splom 1 -
+/ANLY501_Data/reflect 1 -
+/ANLY501_Data/perspective 1 -
+/keys 1 -
+/ANLY501_Data/floor 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 38
+3.16.46.165 81 108 47152252 20230924210043
+104.237.245.222 30 30 19520890 20230912195359
+104.237.245.66 30 30 19520890 20230906010101
+96.225.54.243 5 7 112811 20230930220908
+52.124.42.177 4 11 7137124 20230928213011
+65.154.226.171 4 14 121708 20230901015628
+65.154.226.166 4 15 122845 20230901015006
+104.200.76.73 3 3 10071 20230905140253
+104.143.88.83 3 3 10071 20230923075701
+34.214.42.164 2 2 588 20230928150334
+104.143.88.4 2 2 588 20230913081257
+35.92.58.33 2 2 588 20230912125313
+18.236.175.176 2 2 588 20230923064111
+35.85.226.123 2 2 588 20230913050459
+35.163.49.59 2 2 588 20230905110146
+172.121.216.156 2 2 588 20230928182623
+35.85.231.16 2 2 588 20230905125114
+198.23.148.146 1 1 588 20230922080857
+206.189.129.41 1 1 588 20230908103654
+64.227.71.88 1 1 588 20230930064035
+138.197.79.39 1 1 588 20230922072111
+68.183.63.27 1 1 588 20230902040706
+68.183.46.111 1 1 12601 20230915043530
+206.189.49.245 1 1 588 20230902124350
+103.105.167.79 1 1 0 20230906080433
+176.126.123.43 0 1 108578 
+106.210.197.69 0 2 217156 
+87.146.21.191 0 1 108578 
+119.9.106.90 0 1 108578 
+159.203.121.82 1 1 12600 20230914081205
+104.28.57.115 1 3 110459 20230922030349
+18.207.115.88 1 1 588 20230903053359
+104.131.180.134 1 1 588 20230930162337
+172.121.209.36 1 1 0 20230912055422
+167.71.40.196 1 1 12600 20230928155433
+167.172.177.213 1 1 12611 20230929032127
+146.190.244.36 1 1 588 20230916095433
+167.99.145.204 1 1 12605 20230901122813
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 18
+20230901 9 30 257158 3
+20230902 2 4 218332 2
+20230903 1 1 588 1
+20230905 7 7 11247 3
+20230906 31 31 19520890 2
+20230908 2 4 111047 2
+20230909 0 1 108578 0
+20230912 33 33 19521478 3
+20230913 4 4 1176 2
+20230914 1 1 12600 1
+20230915 1 2 121179 1
+20230916 1 1 588 1
+20230922 3 5 111635 3
+20230923 5 6 119237 2
+20230924 81 108 47152252 1
+20230928 9 16 7150900 4
+20230929 1 1 12611 1
+20230930 6 6 3528 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+2mn-5mn 1
+30s-2mn 2
+0s-30s 31
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 47
+/ 55 108217 36 28
+/Transaction_Twitter/ 10 19200 0 0
+/Transaction_Twitter_Clean/ 9 17766 0 0
+/ANLY501_Data/Clean_searches/ 9 11097 0 0
+/ANLY501_Data/ 9 397359 0 0
+/Time_Series/_site/ 8 75864 0 2
+/Data%20Structures_%20Executive%20Summary%20Report.htm 4 122816 0 1
+/AboutJake.html 4 14976 0 0
+/Projects.html 4 3512 0 0
+/NaiveBayes.html 3 46275 0 0
+/Time_Series/_site/Conclusions.html 3 4276020 0 0
+/Introduction.html 3 22395 0 1
+/DecisionTrees.html 3 72543 0 0
+/SVM.html 3 46971 0 0
+/4th.htm 3 70614 0 0
+/Conclusions.html 3 28368 0 0
+/Time_Series/_site/Data_Visualization.html 3 1191177 0 0
+/Time_Series/_site/Financial.html 3 2355375 0 1
+/Time_Series/_site/EDA.html 3 15393162 0 0
+/DataGathering.html 3 42660 0 0
+/ARMandNetworking.html 3 52275 0 0
+/DataCleaning.html 3 70344 0 0
+/Time_Series/_site/Introduction.html 3 39318 0 0
+/Time_Series/_site/ARMA_ARIMA_SARIMA.html 3 13497492 0 0
+/Time_Series/_site/Deep_Learning.html 3 1069551 0 0
+/ANLY501_Data/LinearSVMViz1.html 1 3866921 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.woff 2 44864 0 1
+/ANLY501_Data/text_lift_interactive.html 1 881753 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.woff 2 45320 0 0
+/ANLY501_Data/Player_Profile_json_example.json 1 31402 0 0
+/Time_Series/_site/search.json 1 107934 0 1
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.woff 2 45816 0 1
+/ANLY501_Data/RadialSVMViz.html 1 3867172 0 0
+/ANLY501_Data/LinearSVMViz.html 1 3867392 0 0
+/ANLY501_Data/3D_record.html 1 3997986 0 0
+/ANLY501_Data/record_lift_graph.html 1 882765 0 0
+/ExploringData.html 3 27996 0 0
+/NBA.html 3 2910 0 0
+/ANLY501_Data/Twitter_API 1 2448 0 0
+/Clustering.html 3 87123 0 0
+/Time_Series/_site/about.html 3 34155 0 0
+/ANLY501_Data/2020schedule.json 1 1142464 0 0
+/ANLY501_Data/3D_4_record.html 1 3997986 0 0
+/Time_Series/_site/SARIMAX.html 3 199272 0 0
+/Time_Series/_site/Data_Sources.html 3 19770270 0 0
+/ANLY501_Data/2019PlayerStatsexample.json 1 48233 0 0
+/ANLY501_Data/DataCleaningR 1 22933 0 0
+END_SIDER

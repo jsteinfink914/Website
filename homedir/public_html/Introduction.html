@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="index.css">
+<style>
+a{text-decoration:none;
+     color:blue;}
+h3{text-align:center;}
+p{line-height:2;}
+li{line-height:2;}
+</style>
+</head>
+<body>
+<div style="font-size:0;">
+<img class='headerLogo' src="DS_Images/MSG_landscape.jpg">
+
+</div>
+<cite class="headerLogoText" style="color:white;text-align:right;"> image from <a href="https://commons.wikimedia.org/wiki/File:New-York_Knicks_in_the_Madison_Square_Garden_(6054203290).jpg" target="_blank" style='color:lightgreen;text-decoration:underline;'>Jean-Baptiste Bellet</a></cite>
+   <!-- Tab Links -->
+<div class="tabs">
+<a href="index.html">Home</a>
+<a href="AboutJake.html">About Jake</a>
+<a href="Introduction.html">Introduction</a>
+<a href="DataGathering.html">Data Gathering</a>
+<a href="DataCleaning.html">Data Cleaning</a>
+<a href="ExploringData.html">Exploring Data</a>   
+<a href="Clustering.html">Clustering</a>
+<a href="ARMandNetworking.html">ARM and Networking</a>
+<a href="DecisionTrees.html">Decision Trees</a>
+<a href="NaiveBayes.html"> Naive Bayes</a>
+<a href="SVM.html">SVM</a>
+<a href="Conclusions.html">Conclusions</a>
+</div>
+
+<div class="TextBox">
+    <p>
+    &emsp; Each NBA offseason, NBA GM's search the available free agent pool to sign players they believe will help improve their team. 
+    These decisions can have a significant impact on team success, especially in the modern NBA where player movement is the new norm. 
+    NBA fans will be familiar with teams such as the Miami Heat from the early 2010s, which was built in free agency with the additions of Lebron James 
+    and Chris Bosh joining Dwayne Wade. Also, when Kevin Durant joined the Golden State Warriors, it led to the first 73 win season in NBA history, 
+    breaking the Michael Jordan Bulls record of 72. Lastly, and most recently, the superteam in Brooklyn, made up of Kevin Durant, Kyrie Irving,
+    and James Harden, were all added through free agency. Examples of franchises overpaying for players is more widespread than successes, plaguing 
+    franchises like the Charlotte Hornets and the New Yok Knicks for years. 
+    <br><br>
+    &emsp;Identifying players who can help is relatively easy, but figuring out how much they are/should be worth is much more challenging. In the 
+    current NBA, identifying undervalued and overvalued players is absolutely critical to building a team contending for a championship. However, player 
+    valuation becomes even more difficult when considering the relatively complex NBA salary cap. The salary cap is a soft cap system in which the cap 
+    is determined by a split in revenue between owners and players (a 50/50 split was enacted after a lockout at the beginning of the 2011-2012 season). 
+    With the NBA's growing popularity, the salary cap has increased dramatically, with a notable exception being a sharp decrease in 2021-2022 due to the
+    COVID-19 pandemic. Some notable aspects of the cap include the luxury tax, a mid-level exception, and Bird Rights:
+    </p>
+    <h3>Luxury Tax</h3>
+    <p>The luxury tax is a mechanism that punishes teams who exceed the salary cap by imposing a progressive tax; the more a team exceeds the cap, 
+    the more they have to pay. For instance, teams between $0 and $5 million over the cap have to pay $1.50 for each dollar in this range (making the 
+    maximum for this level being $7.5 million). The penalty increases to $1.75 per dollar in the range of $5-$9 million over the cap 
+    (<a target="_blank" href="https://www.forbes.com/sites/mortenjensen/2020/05/11/nba-is-facing-a-luxury-tax-problemshould-the-amnesty-clause-return/?sh=2e1fefe374ce">Jensen 2020</a>).</p>
+    <h3>Mid-level Exception</h3>
+    <p>The mid-level exception allows teams who are close to or above the soft cap to continue improving teams by allowing them to offer a player
+    a "mid-level" salary (generally around the league average salary until recently due to the salary cap explosion) and now settles around $5-6 million 
+    which is below the league average of $8 million (<a target='_blank' href="https://hoopshype.com/2016/11/04/hoopshype-explains-what-is-the-nba-mid-level-exception/">Honkasolo 2016</a>). </p>
+    <h3>Bird Rights</h3>
+    <p>"Bird Rights" allow teams to resign their veteran free agents and exceed the salary cap for qualifying players. Generally, being a qualified
+    player means that they have been on the team for multiple previous seasons; 3 for qualifying players and 2 for early qualifiers (<a target="_blank" href="https://cbabreakdown.com/free-agency/#qualifying-veteran-free-agent">Freedman 2019</a>). 
+    These exceptions are used to promote parity in the league and "level the playing field" for small-market teams. Without these rules, when these teams
+    are attempting to keep a free agent, a larger market team could in theory offer more money (and absorb any luxury tax penalty), 
+    thus out competing the less wealthy team. This exception helps correct that issue.</p>
+    <br>
+    <p>
+    &emsp;These exceptions create challenges for analysis of salaries as they are widespread, but do not necessarily reflect a player's "true value"
+    due to the constraints of the salary cap. There are also issues regarding player preferences. For instance, it is relatively common to see 
+    players entering the twilight of their careers (like Carmelo Anthony, Dwight Howard, and Andre Drummond) opt to take a pay cut in order 
+    to be on a championship contending team.
+    </p>
+    <p>
+    &emsp;Quantifying player value requires deeper consideration for specific variables; not only past statistics, but also consideration
+    for context-dependent variables such as age, team changes, outlier performances in contract years (which can skew perceptions of value dramatically).
+    Additionally, there are off-the-court considerations--such as starpower and chemistry--that can affect a player's value in the market. The goal of this 
+    project is to attempt to use available data to predict player salary, and by doing so help identify appropriate salaries for players with a focus 
+    on undervalued players. With this in mind, some questions to be investigated are:
+    </p>
+    <ol style="font-size:20px;">
+    <li>How well can statistics predict market value (salary)?</li>
+    <li>What factors outside of on-court performance affect salary (starpower, 2k ratings)?</li>
+    <li>What makes a star a star?</li>
+    <li>Do certain statistics matter more than others with regard to perceived value?</li>
+    <li>How much of an effect do qualitative factors like age,experience, and height factor in to salary?</li>
+    <li>How does player improvement factor in (who is worth more - a player with solid, consistent performance, or someone who has improved their numbers in each of the last X years)?</li>
+    <li>Do teams have different strategies for offering a salary (are some teams more predictable than others)?</li>
+    <li>Do certain variables become more important when offering contracts to starters versus bench players? (Do rebounds and turnovers matter more for bench players than starters?)</li>
+    </ol>
+    <p>The github repo storing the code for this project can be found <a href = "https://github.com/jsteinfink914/Projects/tree/main/NBA%20Salary%20Prediction" target = "_blank">here</a>.</p>
+</div>
+</body>
+</html>

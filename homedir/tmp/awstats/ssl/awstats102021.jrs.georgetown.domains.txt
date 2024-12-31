@@ -1,0 +1,324 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202110 will be lost/reset.
+# Last config file used to build this data file was /home/jrsgeor2/tmp/awstats/ssl/awstats.jrs.georgetown.domains.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2023                
+POS_TIME 2681                
+POS_VISITOR 9217                
+POS_DAY 9651                
+POS_DOMAIN 3274                
+POS_LOGIN 3516                
+POS_ROBOT 3671                
+POS_WORMS 3875                
+POS_EMAILSENDER 4006                
+POS_EMAILRECEIVER 4149                
+POS_SESSION 10044               
+POS_SIDER 10218               
+POS_FILETYPES 4284                
+POS_DOWNLOADS 4458                
+POS_OS 5136                
+POS_BROWSER 5244                
+POS_SCREENSIZE 5490                
+POS_UNKNOWNREFERER 5564                
+POS_UNKNOWNREFERERBROWSER 5651                
+POS_ORIGIN 5733                
+POS_SEREFERRALS 5868                
+POS_PAGEREFS 6012                
+POS_SEARCHWORDS 6160                
+POS_KEYWORDS 6312                
+POS_MISC 2345                
+POS_ERRORS 6371                
+POS_CLUSTER 3372                
+POS_SIDER_404 6476                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211102000145 1 0 3424835743611
+FirstTime 0
+LastTime 20211031162003
+LastUpdate 20211102123841 1 0 0 0 0
+TotalVisits 22                  
+TotalUnique 9                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 9                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 16 16 18304
+1 1 28 28864 1 1 1144
+2 1 20 0 0 1 0
+3 3 37 3570173 2 3 1179
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 1 1 1144 0 0 0
+7 0 0 0 0 0 0
+8 3 36 3357318 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 1 1 1144
+13 1 34 3356174 1 2 35
+14 2 27 7224 1 2 35
+15 3 29 0 0 1 0
+16 6 30 3012334 1 2 1144
+17 1 2 0 0 1 0
+18 1 14 1125237 1 1 41216
+19 2 42 1969496 0 2 0
+20 2 24 0 0 0 0
+21 5 76 11711615 1 1 41216
+22 16 111 13441619 1 64 259
+23 13 128 17197906 1 2 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+us 60 638 58777960
+cn 1 1 1144
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+no_user_agent 20 62952 20211031000021 0
+survey 2 42360 20211030184434 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 12 8704 0 0
+txt 7 37341 0 0
+csv 6 3478698 0 0
+png 534 35226279 0 0
+html 61 19087411 0 0
+jpg 19 940671 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 12
+/ANLY501_Data/ARM%20and%20Networking_Record.txt 1 0 1277
+/ANLY501_Data/NormalizedText.csv 1 0 292205
+/ANLY501_Data/Sportradar_API_Formatting.txt 1 0 4315
+/ANLY501_Data/Clean_Data.csv 1 0 493815
+/ANLY501_Data/ARM%20and%20Networking_Text_Outputs.txt 1 0 9177
+/ANLY501_Data/NormalizedDF_Labels.csv 1 0 580444
+/ANLY501_Data/ARM%20and%20Networking_Record_Outputs.txt 1 0 2558
+/ANLY501_Data/Clustering_record.txt 1 0 7261
+/ANLY501_Data/CleaningTextData.txt 1 0 4723
+/ANLY501_Data/ARM%20and%20Networking_Text_Gathering_Cleaning.txt 1 0 8030
+/Transaction_Twitter/all_searches.csv 1 0 862675
+/ANLY501_Data/AssociationData.csv 1 0 1249559
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+macosx15 173 11
+win10 465 49
+android10 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 9
+chrome94.0.4606.61 76 3
+safari15.1 26 4
+chrome95.0.4638.54 234 24
+chrome92.0.4515.107 1 1
+firefox90.0 1 1
+safari15.0 71 4
+chrome88.0.4472.114 1 1
+chrome94.0.4606.81 162 16
+chrome94.0.4606.71 67 7
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 19 19
+From1 0 0
+From2 0 0
+From3 0 0
+From4 42 620
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+401 3 105
+301 1 259
+404 61 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 28
+/ANLY501_Data/text_sup.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/Man_4_record.png 3 https://jrs.georgetown.domains/Clustering.html
+/ANLY501_Data/ClusterBins1.png 3 https://jrs.georgetown.domains/Clustering.html
+/ANLY501_Data/ARM_text_clean.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/Most_frequent_items.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/Man_8_record.png 3 https://jrs.georgetown.domains/Clustering.html
+/ANLY501_Data/record_conf_graph.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/Transaction_Twitter_Clean/ 1 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/After_ARM.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/Elbow_Sil_Gap_record.PNG 2 https://jrs.georgetown.domains/Clustering.html
+/ANLY501_Data/Man_7_record.png 3 https://jrs.georgetown.domains/Clustering.html
+/ANLY501_Data/Record_cleaning_ARM.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/record_lift.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/record_support_graph.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/text_lift.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/record_conf.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/Raw_all_searches.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/text_support.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/Before_Arm.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/text_confidence_graph.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/Clean_all_searches.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/Most_frequent_items_clean.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/3D%20text%20cluster.png 1 https://jrs.georgetown.domains/Clustering.html
+/ANLY501_Data/record_support.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+/ANLY501_Data/Cos_8_record.png 3 https://jrs.georgetown.domains/Clustering.html
+/ANLY501_Data/Cos_4_record.png 3 https://jrs.georgetown.domains/Clustering.html
+/ANLY501_Data/Cos_7_record.png 3 https://jrs.georgetown.domains/Clustering.html
+/ANLY501_Data/text_confidence.PNG 2 https://jrs.georgetown.domains/ARMandNetworking.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 9
+72.83.117.41 39 383 31988583 20211031153650
+141.161.133.200 7 51 12346501 20211012225510
+208.58.213.189 4 26 3005110 20211031162003
+208.58.213.28 4 71 6926347 20211017135437
+98.204.178.174 3 76 4510275 20211014010301
+61.135.15.185 1 1 1144 20211002064318
+141.161.133.238 1 29 0 20211017195302
+15.223.38.99 1 1 0 20211007083400
+3.93.81.23 1 1 1144 20211015083344
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20211002 1 1 1144 1
+20211003 3 37 3570173 1
+20211005 6 64 1126325 2
+20211007 1 1 0 1
+20211010 2 17 0 1
+20211012 7 51 12346501 1
+20211013 1 34 3356174 1
+20211014 2 30 28864 2
+20211015 1 1 1144 1
+20211016 7 80 11718839 2
+20211017 2 63 3356174 2
+20211025 10 60 6571235 1
+20211027 9 111 13690197 3
+20211029 2 24 0 1
+20211031 7 65 3012334 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 16
+5mn-15mn 4
+2mn-5mn 1
+1h+ 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/ 12 6864 11 4
+/Clustering.html 12 173184 6 5
+/ExploringData.html 7 37504 1 4
+/ARMandNetworking.html 6 87151 2 1
+/Introduction.html 4 21672 0 1
+/DataCleaning.html 4 70476 0 0
+/DataGathering.html 4 42807 2 2
+/Transaction_Twitter/ 2 3840 0 0
+/AboutJake.html 2 3724 0 0
+/ANLY501_Data/text_lift_interactive.html 2 1763506 0 1
+/ANLY501_Data/3D_record.html 2 7995972 0 2
+/ANLY501_Data/3D_4_record.html 2 7995972 0 1
+/ANLY501_Data/record_lift_graph.html 1 882765 0 1
+/Transaction_Twitter_Clean/ 1 1974 0 0
+END_SIDER

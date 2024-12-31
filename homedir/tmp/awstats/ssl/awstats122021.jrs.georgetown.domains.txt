@@ -1,0 +1,405 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202112 will be lost/reset.
+# Last config file used to build this data file was /home/jrsgeor2/tmp/awstats/ssl/awstats.jrs.georgetown.domains.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2023                
+POS_TIME 2696                
+POS_VISITOR 9835                
+POS_DAY 11470               
+POS_DOMAIN 3398                
+POS_LOGIN 3684                
+POS_ROBOT 3839                
+POS_WORMS 4087                
+POS_EMAILSENDER 4218                
+POS_EMAILRECEIVER 4361                
+POS_SESSION 11828               
+POS_SIDER 12028               
+POS_FILETYPES 4496                
+POS_DOWNLOADS 4721                
+POS_OS 7944                
+POS_BROWSER 8087                
+POS_SCREENSIZE 8441                
+POS_UNKNOWNREFERER 8515                
+POS_UNKNOWNREFERERBROWSER 8635                
+POS_ORIGIN 8750                
+POS_SEREFERRALS 8887                
+POS_PAGEREFS 9031                
+POS_SEARCHWORDS 9179                
+POS_KEYWORDS 9331                
+POS_MISC 2360                
+POS_ERRORS 9390                
+POS_CLUSTER 3540                
+POS_SIDER_404 9510                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220101000055 3 162 3394535631737
+FirstTime 20211201011215
+LastTime 20211224180805
+LastUpdate 20220101124334 3 0 2 0 0
+TotalVisits 49                  
+TotalUnique 37                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 37                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 11 73767819 15 17 16500
+1 41 273 83798154 0 7 3458871
+2 9 25 10592919 1 4 1100
+3 2 8 217417 1 2 35
+4 8 25 10710357 0 3 0
+5 12 80 17510520 0 3 0
+6 11 142 24724498 0 5 62274
+7 5 42 11620839 0 6 2559546
+8 0 0 0 0 0 0
+9 4 12 335922 0 2 0
+10 0 0 0 2 2 41251
+11 0 0 0 0 0 0
+12 2 8 217417 1 1 1100
+13 0 0 0 0 0 0
+14 14 155 32509169 0 1 0
+15 9 95 18111618 2 3 1135
+16 11 120 31105986 0 1 0
+17 25 212 58983338 0 3 0
+18 142 474 277802369 3 8 1618
+19 22 136 23970757 0 3 289319
+20 4 11 10378029 0 2 0
+21 17 190 38865472 2 7 3777011
+22 31 247 88399861 0 3 0
+23 4 52 8712417 1 1 1100
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+us 351 2037 771279418
+cn 11 114 20865970
+ao 9 83 15901147
+hk 5 84 14288343
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+no_user_agent 19 61016 20211231232106 0
+survey 1 1100 20211207020720 0
+bot[\s_+:,\.\;\/\\-] 1 1100 20211223123323 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+txt 70 3350862 0 0
+jpg 70 6187351 0 0
+json 6 2444198 0 0
+css 47 38520 0 0
+html 366 204075345 0 0
+Unknown 4 50762 0 0
+csv 63 253892237 0 0
+png 1692 352295603 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 64
+/ANLY501_Data/Conclusion_Viz.txt 4 0 23716
+/ANLY501_Data/Normalized_Labeled_Text_DT.csv 3 0 220646451
+/ANLY501_Data/NB_Record.txt 3 0 11388
+/ANLY501_Data/SVM_Record.txt 3 0 19140
+/ANLY501_Data/AssociationData.csv 2 0 2499118
+/ANLY501_Data/Clean_Data_UpdatedLabels.csv 2 0 1011696
+/ANLY501_Data/DataCleaningR.txt 2 0 46542
+/ANLY501_Data/ARM%20and%20Networking_Record.txt 2 0 2554
+/ANLY501_Data/All_NBA_data.txt 2 0 2236
+/ANLY501_Data/CleaningTextData.txt 2 0 9446
+/ANLY501_Data/Sportradar_PlayerProfile.txt 2 0 9044
+/ANLY501_Data/BigTwitterDoc1.txt 2 0 1302102
+/ANLY501_Data/RawDF.csv 2 0 4958158
+/ANLY501_Data/Merging_2k_rankings.txt 2 0 3448
+/ANLY501_Data/allstar_legend_superstar_clean.csv 2 0 485250
+/ANLY501_Data/nba_allstar.txt 2 0 45990
+/ANLY501_Data/NB_Text.txt 2 0 11818
+/Transaction_Twitter/nba_star.csv 2 0 917470
+/Transaction_Twitter_Clean/all_searches_clean.csv 2 0 2526762
+/ANLY501_Data/Clean_searches/nba_star_clean.csv 2 0 1151078
+/ANLY501_Data/MergeSalaries.txt 2 0 5638
+/Transaction_Twitter/all_searches.csv 2 0 1725350
+/ANLY501_Data/ARM%20and%20Networking_Text_Gathering_Cleaning.txt 2 0 16060
+/ANLY501_Data/Changing_Labels.txt 2 0 2622
+/ANLY501_Data/Sportradar_API_Formatting.txt 2 0 8630
+/ANLY501_Data/ARM%20and%20Networking_Text_Outputs.txt 2 0 18354
+/ANLY501_Data/DT_Record.txt 2 0 7786
+/ANLY501_Data/NormalizedDF_Labels.csv 2 0 1160888
+/Transaction_Twitter_Clean/nba_mvp_clean.csv 2 0 685562
+/ANLY501_Data/Clean_searches/nba_mvp_clean.csv 2 0 685562
+/ANLY501_Data/Clustering_record.txt 2 0 14522
+/ANLY501_Data/Merging_2020_salaries_and_2kratings.txt 2 0 4668
+/ANLY501_Data/Clean_Data.csv 2 0 987630
+/Transaction_Twitter/nba_superstar.csv 2 0 150900
+/ANLY501_Data/Clean_Data_Labels.csv 2 0 1082206
+/ANLY501_Data/ARM%20and%20Networking_Record_Outputs.txt 2 0 5116
+/ANLY501_Data/NormalizedText.csv 2 0 584410
+/ANLY501_Data/ClusteringTextData.txt 2 0 19232
+/ANLY501_Data/Scraping2020_2k_rankings.txt 2 0 5918
+/Transaction_Twitter/nba_allstar.csv 2 0 32406
+/ANLY501_Data/BigTwitterDoc.txt 2 0 1635924
+/ANLY501_Data/DT_text.txt 2 0 16362
+/Transaction_Twitter_Clean/allstar_legend_superstar_clean.csv 2 0 485250
+/ANLY501_Data/DF_with_experience.csv 2 0 4629194
+/ANLY501_Data/Clean_searches/allstar_legend_superstar_clean.csv 2 0 485250
+/ANLY501_Data/Sportradar_API.txt 2 0 8262
+/ANLY501_Data/NormalizedDF.csv 2 0 1095968
+/Transaction_Twitter_Clean/nba_allstar_clean.csv 2 0 46356
+/Transaction_Twitter_Clean/nba_superstar_clean.csv 2 0 1151078
+/ANLY501_Data/DataExploration.txt 2 0 9488
+/Transaction_Twitter/allstar_legend_superstar.csv 2 0 331080
+/ANLY501_Data/SVM_text.txt 2 0 15172
+/Transaction_Twitter_Clean/nba_star_clean.csv 2 0 1151078
+/ANLY501_Data/Decision_Tree_formatting_text.txt 2 0 7116
+/ANLY501_Data/Web_scraping_salaries.txt 2 0 38034
+/Transaction_Twitter/nba_legend.csv 2 0 147774
+/ANLY501_Data/Experience_age_movement.txt 2 0 7844
+/ANLY501_Data/nba_star_clean.csv 2 0 1151078
+/Transaction_Twitter_Clean/nba_legend_clean.csv 2 0 216436
+/ANLY501_Data/nba_mvp_clean.csv 2 0 685562
+/ANLY501_Data/Duplicates.txt 2 0 12040
+/ANLY501_Data/Twitter_API.txt 2 0 4650
+/ANLY501_Data/Twitter_Data.csv 2 0 325942
+/Transaction_Twitter/nba_mvp.csv 2 0 699294
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+macosx14 59 6
+Unknown 250 122
+ios_iphone 14 4
+win10 1012 136
+macosx15 983 108
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 13
+chrome96.0.4664.93 37 8
+chrome96.0.4664.45 521 73
+chrome95.0.4638.69 281 25
+safari15.1 34 10
+chrome92.0.4515.159 172 19
+Unknown 250 122
+safari15.0 118 13
+chrome95.0.4638.54 12 4
+chrome96.0.4664.55 603 63
+chrome94.0.4606.71 15 6
+chrome92.0.4515.131 1 1
+chrome96.0.4664.110 273 31
+chrome92.0.4515.107 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+advertools/0.12.2 20211209183654
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+advertools/0.12.2 20211209183654
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 52 52
+From1 0 0
+From2 0 0
+From3 0 0
+From4 324 2266
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+401 3 105
+404 2 0
+206 18 10147021
+301 2 518
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1
+/robots.txt 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 37
+71.178.234.164 122 250 230119712 20211209183700
+72.83.117.41 36 221 32979703 20211210213014
+69.251.25.79 19 172 127519129 20211205223614
+68.174.155.236 17 145 41486158 20211205222640
+71.244.149.107 17 88 29265552 20211210014417
+50.211.219.161 15 139 33394344 20211223001855
+96.86.18.37 15 131 49049495 20211215173850
+100.15.105.85 13 154 32509169 20211201141127
+73.39.19.69 12 145 38065433 20211203212027
+173.73.247.223 11 90 26012222 20211201013822
+69.251.134.217 10 74 17289024 20211202053025
+154.207.66.70 9 83 15901147 20211204061451
+216.15.62.153 8 102 19798572 20211204161753
+141.161.133.112 7 90 17907255 20211203155241
+141.161.133.24 6 59 12886785 20211204172121
+100.15.191.251 6 67 9938081 20211203230151
+202.66.60.185 5 84 14288343 20211203182452
+101.71.38.252 5 42 11620839 20211204070806
+98.204.179.57 4 14 439398 20211202203418
+208.58.213.73 4 12 10302065 20211209023900
+38.13.34.85 3 9 225174 20211205040103
+72.83.221.9 3 9 225174 20211206091535
+96.255.79.95 3 8 10267281 20211203223804
+73.172.30.130 3 8 10267281 20211204044625
+70.21.25.247 3 7 10188728 20211204015959
+182.202.3.9 2 8 217417 20211201032502
+101.71.39.124 2 59 8823351 20211204065012
+73.172.25.32 1 3 110748 20211206090522
+73.212.143.215 2 8 217417 20211201022855
+182.202.7.226 2 5 204363 20211203151924
+141.161.133.30 2 8 217902 20211202005939
+18.220.112.23 1 1 1100 20211215024807
+173.242.112.205 2 8 217417 20211201121337
+54.75.92.145 1 1 0 20211208143450
+24.189.158.81 1 3 1070 20211224180805
+141.161.133.113 3 8 10267281 20211203201235
+108.31.196.134 1 3 110748 20211206055750
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20211201 34 275 59269427 7
+20211202 20 134 18599728 6
+20211203 38 407 100938037 7
+20211204 82 678 155538415 12
+20211205 29 232 77126161 3
+20211206 6 18 73995487 4
+20211208 1 1 0 1
+20211209 126 262 240421777 2
+20211210 8 37 13999837 2
+20211215 30 269 82443839 3
+20211223 1 2 1100 1
+20211224 1 3 1070 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+30mn-1h 3
+30s-2mn 4
+5mn-15mn 6
+15mn-30mn 2
+0s-30s 28
+2mn-5mn 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 29
+/ 57 50600 45 12
+/Introduction.html 23 167602 0 3
+/Conclusions.html 23 205607 2 12
+/AboutJake.html 19 52907 0 0
+/Transaction_Twitter_Clean/ 18 35532 0 0
+/ANLY501_Data/ 18 794718 0 1
+/ANLY501_Data/Clean_searches/ 18 22194 0 0
+/Transaction_Twitter/ 18 34560 0 0
+/DataCleaning.html 16 375168 0 5
+/DataGathering.html 15 184860 0 0
+/SVM.html 14 187066 0 4
+/ANLY501_Data/3D_record.html 14 55971804 0 3
+/Clustering.html 14 377531 1 1
+/DecisionTrees.html 13 314353 0 2
+/ANLY501_Data/3D_4_record.html 13 51973818 0 0
+/ARMandNetworking.html 12 209100 0 0
+/ANLY501_Data/text_lift_interactive.html 11 9699283 0 0
+/ANLY501_Data/record_lift_graph.html 11 9710415 0 2
+/ExploringData.html 10 93320 0 0
+/NaiveBayes.html 9 138825 1 0
+/ANLY501_Data/RadialSVMViz.html 7 27070204 0 3
+/ANLY501_Data/LinearSVMViz.html 6 23204352 0 0
+/ANLY501_Data/LinearSVMViz1.html 6 23201526 0 1
+/ANLY501_Data/DataCleaningR 2 45866 0 0
+/ANLY501_Data/Twitter_API 2 4896 0 0
+/Infographic.html 1 0 0 0
+/ANLY501_Data/2020schedule.json 2 2284928 0 0
+/ANLY501_Data/Player_Profile_json_example.json 2 62804 0 0
+/ANLY501_Data/2019PlayerStatsexample.json 2 96466 0 0
+END_SIDER

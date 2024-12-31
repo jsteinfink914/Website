@@ -1,0 +1,58 @@
+body{background-color:lightgrey;margin:0;}
+.tabs{overflow:hidden;
+      background-color:black;
+      padding:15px 60px;
+      
+}
+.tabs a{float:left;
+        background-color:inherit;
+        color:white;
+        font-size:15px;
+        padding: 14px 16px;
+        text-align:center;
+        text-decoration:none;}
+.tabs a:hover{background-color:grey;
+              color:black;}
+.Logo{
+  position:relative;
+  text-align:center;
+  overflow:hidden;
+  height:100%;
+  width:100%;
+  background-size:cover;
+  background-attachment: scroll;
+  background-image: url('/DS_Images/SpaceImage.jpg');
+}
+.LogoText{
+    font-size:50px;
+    position:absolute;
+    color:white;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.headerLogo{
+  height:350px;
+  width:100%;
+  overflow:hidden;
+}
+.headerLogoText{
+    position:absolute;
+    transform: translate(1250px,-25px);
+}
+.TextBox{background-color:white;
+      border:1vw solid black;
+      margin-left:15%;
+      margin-right:15%;
+      margin-top:5%;
+      padding: 0vw 4vw;
+      }
+.TextBox p{color:black;
+          padding: 0px 20px;
+          font-size:20px;}
+.DFpic{margin-left:14%;
+       height:400px;width:72%;}
+       
+.Aboutpic{margin-left:14%;
+       height:40%;width:72%;}
+       
+

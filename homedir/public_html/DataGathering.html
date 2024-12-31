@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+<style>
+a{text-decoration:none;
+     color:blue;
+}
+h3{text-align:center;}
+h2{text-align:center;}
+p{line-height:2;}
+li{line-height:2;}
+</style>
+</head>
+<body>
+<div style="font-size:0;">
+<img class='headerLogo' src="/DS_Images/MSG_landscape.jpg">
+
+</div>
+<cite class="headerLogoText" style="color:white;text-align:right;"> image from <a href="https://commons.wikimedia.org/wiki/File:New-York_Knicks_in_the_Madison_Square_Garden_(6054203290).jpg" target="_blank" style='color:lightgreen;text-decoration:underline;'>Jean-Baptiste Bellet</a></cite>
+   <!-- Tab Links -->
+<div class="tabs">
+<a href="index.html">Home</a>
+<a href="AboutJake.html">About Jake</a>
+<a href="Introduction.html">Introduction</a>
+<a href="DataGathering.html">Data Gathering</a>
+<a href="DataCleaning.html">Data Cleaning</a>
+<a href="ExploringData.html">Exploring Data</a>   
+<a href="Clustering.html">Clustering</a>
+<a href="ARMandNetworking.html">ARM and Networking</a>
+<a href="DecisionTrees.html">Decision Trees</a>
+<a href="NaiveBayes.html"> Naive Bayes</a>
+<a href="SVM.html">SVM</a>
+<a href="Conclusions.html">Conclusions</a>
+</div>
+<div class="TextBox">
+<h2>Gathering Record Data</h2>
+<p>&emsp; To examine the questions of interest in the "Introduction" tab, it was necessary
+to collect stats and advanced stats and salaries for all players, NBA2k ratings, All NBA team's rosters, salary cap information, and player profiles.
+<br>
+&emsp; To accomplish this task, the <a href='https://developer.sportradar.com/docs/read/Home#getting-started' target="_blank">Sportradar API</a> 
+was used to collect the stats and advanced stats for all NBA players post the NBA lockout in 2011 (which reshaped the salary cap and made all prior 
+years irrelevant for the purposes of this analysis). To accomplish this, Sportradar has an endpoint called "Seasonal Statistics" which allows one to 
+call an entire team's stats (including all their players) for a given year. The API required the call to use a parameter called "team_id" which was 
+gathered by accessing the "Schedule" endpoint which produced a json file with the schedule for a given year. 
+The raw json <a href="/ANLY501_Data/2020schedule.json" target="_blank">file </a>
+was used to isolate the unique "team_id's". This allowed for the next step: collecting the seasonal statitics for each team from 2012 onward.
+The code used to access the "Schedule" endpoint, isolate "team_id's" and use those id's to collect
+all of the statistics is <a href="/ANLY501_Data/Sportradar_API.txt" target="_blank">linked</a>. A quick look at the code making the 
+API call for the "Seasonal Statistics" endpoint shows the structure of the API call and how it was dumped into a json file.
+</p>
+<img src='/ANLY501_Data/Sportradar_API_call.PNG' class='DFpic' style='width:70%;margin-left:15%;'>
+<p>
+This API call returned files for each of the 32 teams for each of the 9 seasons resulting in 288 individual files in json format. An example of one of
+the json files can be seen <a href="/ANLY501_Data/2019PlayerStatsexample.json" target="_blank">here</a>.
+The next task was to convert these files into dataframes and then join the dataframes together. Parsing the json files was easy once the relevant 
+attributes and keys were identified. The "players" tag stored information for each player on the team and this tag was used along with pandas methods 
+to create a dataframe from the json file. The <a href="/ANLY501_Data/Sportradar_API_Formatting.txt" target="_blank">code</a> used to perform this process and 
+join the dataframes together makes use of the Pandas library in Python and the dictionary format of the json data. Now, a nearly 5000 row dataframe containing
+stats for all players on all teams from 2012-2020 was built. A quick look at the raw dataframe is shown below:
+</p>
+<img src='/ANLY501_Data/SportradarDF.PNG' class='DFpic' style='height:550px;width:90%;margin-left:5%;' >
+<p> 
+ &emsp; A couple of things to note about this dataset; there are entries for each player for each team they played for in a given year. 
+ This means that if a player gets traded in the middle of the 2020 season, he will have an entry for both teams in 2020. 
+ This also means that there are repeat entries for players in a given season, which is an issue that will be tackled in the "Data Cleaning" stage.
+ This also means that going forward, to identify a particular player in a season, a combination of the player's name and year must be constructed. 
+ This was tackled during the addition of 2k ratings to the data.
+ <br>
+ &emsp; To gather NBA2k ratings and salaries data, the bulk was downloaded from Kaggle datasets which were originally built through a webscraping process.
+ For 2k rankings, the ratings from <a href='https://www.kaggle.com/willyiamyu/nba-2k-ratings-with-real-nba-stats'>2014-2019</a> was utilized. 
+ With regard to the 2k rankings data, an important note is that rankings are based on a player's prior season's performance. 
+ For instance, the ratings that will align with a player's stats from a season beginning in 2020 will be the ratings from the 2021-2022 season.
+ Because NBA2k names games based on the year the season ends in, the ratings from 2k22 are utilized for the 2020 season. A similar approach was used 
+ for salaries and the numbers from  <a href='https://www.kaggle.com/josejatem/nba-salaries-20032019' target='_blank'>2012-2018</a>
+and <a href='https://www.kaggle.com/junfenglim/nba-player-salaries-201920' target="_blank">2019</a> were easily accessible and accurate. To transfer
+these data points from one dataset to another, a nested for loop was used. To simplify this method, a tactic for nearly all merging of different dataframes 
+was used. By creating a column called "combined," each dataset would join a player's name and their year to ease matching. 
+For instance, the combined column would show "Lebron James2020" to represent an entry for Lebron James from the season starting in 2020.
+</p>
+<img src='/ANLY501_Data/Merging_data.PNG' class='DFpic' style='height:550px;width:70%;margin-left:15%;'> 
+<p>
+Using other techniques to merge dataframes proved challenging, as column ordering and variable type were different from dataset to dataset.
+This method allowed for full control over the data. The code for merging the <a href='/ANLY501_Data/MergeSalaries.txt' target='_blank'>salary</a> and the 
+<a href='/ANLY501_Data/Merging_2k_rankings.txt' target='_blank'>2k ratings</a> are very similar and use the for loop technique shown above 
+along with a little bit of cleaning to make the transfer possible.
+<br>
+&emsp; Although the Kaggle datasets were helpful, they were not comprehensive. As a result, a webscraping process was undertaken
+to obtain the 2k rankings for 2012, 2013, and 2020. To do so, the Python libraries "BeautifulSoup" and "tabulate" were used to interpret 
+the html code shown by the process below: 
+</p>
+<img src="/ANLY501_Data/Web_scraping_2k.PNG" class='DFpic' style='height:700px;width:62%;margin-left:19%;'>
+<p>
+The rest of the <a href='/ANLY501_Data/Scraping2020_2k_rankings.txt' target='_blank'>code</a> involved appending each individual dataframe to an empty list,
+concatenating them together, and editing the dataframe to make matching with the parent dataframe easier.
+<br>
+&emsp; A similar process was undertaken for the missing salary data for the 2020 season as well as salary cap data. The salary data was obtained 
+from <a href='https://hoopshype.com/salaries/players/2020-2021/' target='_blank'>hoopshype.com</a>
+and the salary cap data was obtained from <a href='https://www.basketball-reference.com/contracts/salary-cap-history.html' target='_blank'>basketball-reference.com</a>. 
+To scrape the salary data, R has very helpful libraries "selectr", "rvest", and "xml2" which makes parsing html-based websites very straightforward.
+In this case, all it took to create a dataframe was this bit of code:
+</p>
+<img src='/ANLY501_Data/Scraping_salaries.PNG' class='DFpic' style='height:300px;width:60%;margin-left:20%'>
+<p>
+The salary cap data was slightly more complex due to the makeup of Basketball-Reference. Directly scraping this site was not an available option; however, 
+the site provided a "Share & Export option that allowed for the html table to be copied and fed directly into R.
+</p>
+<img src='/ANLY501_Data/Basketball Reference.PNG' class='DFpic' style='height:450px;width:74%;margin-left:13%'>
+<p>
+ To process this output, the same process was followed when scraping salaries, but instead of using the website inside the read_html() tag, 
+ a variable storing all the copied text was used in its place. The <a href='/ANLY501_Data/Web_scraping_salaries.txt' target="_blank">full code</a> 
+ shows this process, but outside of that slight change, the rest of the process was the same.
+ <br>
+ &emsp;In an effort to add more data points to help quantify star power, the <a href='https://www.rdocumentation.org/packages/nbastatR/versions/0.1.10131' target="_blank">nbastatR</a>
+ package was used to collect All NBA team rosters. For the non-NBA fan, at the end of each season an All NBA 1st, 2nd, and 3rd team is awarded to the 
+ best players in the league (1st being the most elite). Getting appointed to these teams is a great honor and they are chosen by a select group of 
+ broadcasters and sportswriters. Although not a perfect system, it is more reliable than the All-Star selection process for identifying true stars in the 
+ game (as that involves fan input and players are chosen less than halfway through the season). Gathering this data was very straightforward thanks to the R package. 
+ The only unique aspect was having to increase the default connection size to double the default in order to make the connection to the package's functions,
+ as shown below.
+</p>
+<img src='ANLY501_Data/R_Stats_Package.PNG' class="DFpic" style='height:300px;width:70%;margin-left:15%'>
+<p>
+To round out the main statistics dataframe, some qualitative information on the players (height, weight, birthdate and experience) were added using the 
+Sportradar API used to collect the player statistics. The endpoint accessed for this purpose was called "Player Profile" which shared information regarding
+each player identified based on their "player_id". To access this, another API call, very similar to the original, was made for each unique player id which 
+was identified from the parent dataframe. During this process, a new free trial had to be initiated due to the 1,000 API call per month limit. 
+Similar to the first API call, the "Player Profile" endpoint returns a <a href='/ANLY501_Data/Player_Profile_json_example.json' target="_blank">json file</a> 
+which must be sorted through using dictionary keys. In the image below, the second for loop in the API call process, followed by the code used to 
+isolate the relevant data is shown:
+</p>
+<img src='/ANLY501_Data/Player_Profile.PNG' class="DFpic" style='height:750px;width:64%;margin-left:18%;'>
+<p>
+The <a href='/ANLY501_Data/Sportradar_PlayerProfile.txt' target='_blank'>full code</a> is essentially captured in this image with the
+exception of the creation of a unique "player_id" list, the first for loop, and the writing of the end dataframe to a csv file.
+<br>
+&emsp;At this point, datasets for the webscraped 2020 salaries, 2012-2013 and 2020 2k rankings, salary cap data, and All NBA data all stand alone. 
+To merge these datasets with the parent dataset follows the same nested for loop logic displayed above. Some adjustments for season value columns 
+(both in terms of format and end of season vs. beginning of season) had to be made, but none any different or more complex than before. 
+The merging of <a href='/ANLY501_Data/Merging_2020_salaries_and_2kratings.txt' target="_blank">salaries, salary cap, 2k ratings</a> and 
+<a href='/ANLY501_Data/All_NBA_data.txt' target="_blank">All NBA</a> data were only conducted in separate files due to a time difference in their collection.
+<br>
+&emsp; With these additions made, the Raw statistical dataframe is complete. The completed dataframe has 84 columns and 4837 rows, all of which 
+need to be cleaned and/or potentially removed. This dataset includes quantitative, qualitative, boolean, and temporal data, most of which can be 
+used to perform an effective analysis on salaries in the NBA. The raw dataset can be downloaded <a href='/ANLY501_Data/RawDF.csv' target='_blank'>here</a> and 
+a selection of the data is shown below:
+</p>
+<img src='/ANLY501_Data/RawDF.PNG' class="DFpic" style='height:550px;width:90%;margin-left:5%;'>
+<h2>Gathering Text Data</h2>
+<p>
+Beyond the dataset containing much of the stats, another question of interest is the notion of starpower. The All NBA data was gathered to help this 
+process, but starpower is not something that can simply be quanitfied by numbers; it often is intangible, and a cultural phenomenon. 
+To this end, the <a href='https://developer.twitter.com/en/docs' target="_blank">twitter API</a> was utilized to gather tweets in an effort to 
+see what is associated with NBA stardom in the popular consciousness. To this end, a series of searches using specific keywords and hasthags 
+including "nba allstar", "nba superstar", "nba legend", "nba star", and "nba mvp" were used to gather as much data related to stardom as possible. 
+An example of one search is shown below:
+</p>
+<img src='/ANLY501_Data/Twitter.PNG' class="DFpic" style='height:300px;width:70%;margin-left:15%'>
+<p>
+Performing these <a href='/ANLY501_Data/Twitter_API.txt' target="_blank">searches</a> the idea is to use these documents (one of them is 
+linked <a href='/ANLY501_Data/nba_allstar.txt' target="_blank">here</a>) to find associations between specific words and stardom. 
+Ideally, these findings will supplement the statistics in accounting for an unexpected salary bump (or decrease) due to cultural factors related 
+to stardom, or lack thereof.
+</p>
+
+</div>
+</body>
+</html>

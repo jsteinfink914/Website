@@ -1,0 +1,335 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202109 will be lost/reset.
+# Last config file used to build this data file was /home/jrsgeor2/tmp/awstats/ssl/awstats.jrs.georgetown.domains.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2023                
+POS_TIME 2696                
+POS_VISITOR 8667                
+POS_DAY 9195                
+POS_DOMAIN 3344                
+POS_LOGIN 3588                
+POS_ROBOT 3743                
+POS_WORMS 3976                
+POS_EMAILSENDER 4107                
+POS_EMAILRECEIVER 4250                
+POS_SESSION 9719                
+POS_SIDER 9925                
+POS_FILETYPES 4385                
+POS_DOWNLOADS 4626                
+POS_OS 5839                
+POS_BROWSER 5949                
+POS_SCREENSIZE 6154                
+POS_UNKNOWNREFERER 6228                
+POS_UNKNOWNREFERERBROWSER 6315                
+POS_ORIGIN 6397                
+POS_SEREFERRALS 6535                
+POS_PAGEREFS 6679                
+POS_SEARCHWORDS 6827                
+POS_KEYWORDS 6979                
+POS_MISC 2360                
+POS_ERRORS 7038                
+POS_CLUSTER 3444                
+POS_SIDER_404 7148                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211001000156 2 147 3416061390714
+FirstTime 20210901004050
+LastTime 20210929230359
+LastUpdate 20211001123639 2 0 1 0 0
+TotalVisits 39                  
+TotalUnique 11                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 11                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 15 42 7262186 15 19 14130
+1 59 65 3528393 0 0 0
+2 4 36 2655398 0 1 0
+3 0 1 4723 0 0 0
+4 3 17 1283192 1 3 0
+5 2 31 3211680 2 4 65680
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 1 1 1114
+9 0 0 0 0 0 0
+10 1 1 1123 1 1 1114
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 2 5 1123 0 1 0
+14 0 0 0 0 0 0
+15 55 119 1455536 0 6 0
+16 33 67 35791 0 0 0
+17 63 136 2390229 2 7 35
+18 11 25 1250440 1 3 1010
+19 24 67 2114183 1 8 35
+20 107 185 14155524 2 37 4988672
+21 79 207 4579870 3 57 308364
+22 51 98 876269 0 12 126594
+23 112 285 31348451 0 33 3382612
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+us 620 1386 76152988
+cn 1 1 1123
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+no_user_agent 17 58696 20210929000020 0
+crawl 2 1010 20210914211804 0
+survey 1 1010 20210907180023 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+heic 12 9175336 0 0
+png 303 27449914 0 0
+json 5 3523858 0 0
+jpg 116 16833415 0 0
+txt 38 2495829 0 0
+pdf 2 2633462 0 0
+csv 9 12078151 0 0
+css 286 107550 0 0
+html 616 1856596 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 26
+/ANLY501_Data/Sportradar_API.txt 4 0 16524
+/ANLY501_Data/Twitter_API.txt 4 0 9669
+/ANLY501_Data/Sportradar_PlayerProfile.txt 3 0 15636
+/ANLY501_Data/Web_scraping_salaries.txt 3 0 57051
+/ANLY501_Data/RawDF.csv 3 0 7437237
+/ANLY501_Data/CleaningTextData.txt 3 0 14169
+/ANLY501_Data/Sportradar_API_Formatting.txt 3 0 12945
+/DS_Images/Me.pdf 2 0 2633462
+/ANLY501_Data/MergeSalaries.txt 2 0 5638
+/ANLY501_Data/All_NBA_data.txt 2 0 2236
+/ANLY501_Data/Scraping2020_2k_rankings.txt 2 0 5918
+/ANLY501_Data/Merging_2k_rankings.txt 2 0 3448
+/ANLY501_Data/BigTwitterDoc.txt 2 0 1635924
+/ANLY501_Data/Merging_2020_salaries_and_2kratings.txt 2 0 4668
+/ANLY501_Data/DF_with_experience.csv 1 0 2314597
+/ANLY501_Data/DataCleaningR.txt 1 0 23271
+/ANLY501_Data/Clean_Data_Labels.csv 1 0 541103
+/ANLY501_Data/Duplicates.txt 1 0 6020
+/ANLY501_Data/Experience_age_movement.txt 1 0 3922
+/ANLY501_Data/DataExploration.txt 1 0 4744
+/ANLY501_Data/BigTwitterDoc1.txt 1 0 651051
+/ANLY501_Data/Twitter_Data.csv 1 0 162971
+/ANLY501_Data/nba_allstar.txt 1 0 22995
+/ANLY501_Data/NormalizedDF_Labels.csv 1 0 580444
+/ANLY501_Data/NormalizedDF.csv 1 0 547984
+/ANLY501_Data/Clean_Data.csv 1 0 493815
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+win10 1281 603
+android10 1 1
+macosx15 105 17
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 6
+chrome94.0.4606.61 143 28
+chrome94.0.4606.54 13 2
+chrome93.0.4577.63 457 233
+chrome91.0.4472.114 1 1
+chrome93.0.4577.82 203 54
+chrome92.0.4515.159 570 303
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 400 400
+From1 0 0
+From2 0 0
+From3 0 0
+From4 221 987
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 54 8828539
+401 3 105
+404 35 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 17
+/ANLY501_Data/Merging_2k_rankings.txt 3 https://jrs.georgetown.domains/DataGathering.html
+/ANLY501_Data/SportradarDF.png 1 https://jrs.georgetown.domains/DataGathering.html
+/ANLY501_Data/Scraping_salaries.PNG 2 https://jrs.georgetown.domains/DataGathering.html
+/apidata.html 1 -
+/DS_Images/College_Freinds.HEIC 1 https://jrs.georgetown.domains/AboutJake.html
+/robots.txt 3 -
+/ANLY501_Data/CountVectorizer.PNG 1 https://jrs.georgetown.domains/DataCleaning.html
+/ANLY501_Data/SalaryBins.png 1 https://jrs.georgetown.domains/ExploringData.html
+/DS_Images/Yankees.HEIC 1 https://jrs.georgetown.domains/AboutJake.html
+/DS_Images/Friends_at_Prom.jpg 2 https://jrs.georgetown.domains/AboutJake.html
+/ANLY501_Data/Twitter_Data.csv 1 https://jrs.georgetown.domains/DataCleaning.html
+/DS_Images/Prom.jpg 3 https://jrs.georgetown.domains/AboutJake.html
+/ANLY501_Data/MergeSalaries.txt 2 https://jrs.georgetown.domains/DataGathering.html
+/%3C/div 4 https://jrs.georgetown.domains/DataGathering.html
+/ExploringData.html 1 https://jrs.georgetown.domains/AboutJake.html
+/DS_Images/YBasketballheader.jpg 3 https://jrs.georgetown.domains/AboutJake.html
+/DS_Images/Baseball.heic 5 https://jrs.georgetown.domains/AboutJake.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 11
+72.83.117.41 543 1102 50840769 20210928235111
+24.189.158.81 37 71 7062026 20210905235927
+73.212.136.78 10 44 6976449 20210927194743
+69.251.134.217 8 21 1250440 20210919183951
+24.126.62.226 6 67 5867078 20210929055734
+73.172.25.32 4 7 193226 20210927194827
+107.117.200.85 3 4 0 20210915185318
+216.15.48.253 3 37 2657620 20210929230359
+73.135.215.201 3 16 22188 20210915170815
+98.204.178.174 3 17 1283192 20210929045110
+218.17.86.54 1 1 1123 20210905101151
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20210901 187 294 7446307 4
+20210903 2 5 1123 1
+20210904 2 5 110582 2
+20210905 34 62 6951444 2
+20210907 66 173 3143525 2
+20210908 5 11 1153766 2
+20210911 2 5 7284 1
+20210912 2 4 0 1
+20210914 215 398 25073353 4
+20210915 7 22 24424 3
+20210917 12 25 53598 2
+20210918 7 20 2503261 1
+20210919 20 67 6979857 4
+20210920 5 23 34965 1
+20210922 12 27 667599 1
+20210923 2 13 85959 1
+20210927 7 23 1445470 2
+20210928 22 89 10663704 1
+20210929 12 120 9803167 4
+20210930 0 1 4723 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 1
+5mn-15mn 4
+0s-30s 18
+30s-2mn 4
+1h+ 4
+15mn-30mn 2
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 11
+/Introduction.html 175 786624 1 9
+/DataGathering.html 156 822592 1 10
+/ 149 54915 33 8
+/AboutJake.html 110 103237 3 3
+/DataCleaning.html 17 70476 0 5
+/ExploringData.html 5 18752 1 1
+/ANLY501_Data/2020schedule.json 3 3427392 0 0
+/ANLY501_Data/2019PlayerStatsexample.json 2 96466 0 1
+/NaiveBayes.html 2 0 0 1
+/Clustering.html 1 0 0 0
+/EDA.html 1 0 0 1
+END_SIDER

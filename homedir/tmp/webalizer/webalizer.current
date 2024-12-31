@@ -1,0 +1,211 @@
+# Webalizer V2.23-08 Incremental Data - 12/09/2023 11:12:45
+2023 12 9 11 12 45
+95 43 16 7 2 14 1638187 37 15 0
+1 1 48 1 9
+6 6 112223 2 5 2
+5 5 111635 1 4 1
+7 6 135816 3 5 2
+53 6 112223 2 6 2
+0 0 0 0 0 0
+2 1 588 1 1 1
+16 13 1053479 6 11 5
+5 5 111635 1 4 1
+1 1 588 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+4 3 434326 3
+0 0 0 0
+0 0 0 0
+0 0 0 0
+5 4 110459 3
+0 0 0 0
+3 2 397647 2
+0 0 0 0
+48 1 588 2
+0 0 0 0
+1 1 588 1
+0 0 0 0
+10 10 223270 8
+15 15 334905 12
+0 0 0 0
+0 0 0 0
+7 6 112223 5
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+2 1 24181 1
+0
+0
+0
+43
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+52
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/Time_Series/_site/about.html
+0 1 0 11385 1 0
+/Time_Series/_site/Deep_Learning.html
+0 1 0 356517 0 0
+/DS_Images/SpaceImage.jpg
+0 7 0 760046 0 0
+/Time_Series/_site/Data_Visualization.html
+0 1 0 397059 1 0
+/
+0 31 0 22575 12 0
+/Time_Series/_site/SARIMAX.html
+0 1 0 66424 0 0
+/DecisionTrees.html
+0 1 0 24181 1 0
+# End Of Table - urls
+# -sites- (monthly)
+51.137.28.34.bc.googleusercontent.com
+0 5 5 111635 1 1702046450
+/
+msnbot-52-167-144-23.search.msn.com
+0 1 1 24181 1 1701645611
+/DecisionTrees.html
+host.coloup.com
+0 4 3 110459 1 1701925395
+/
+bgvfr8.assessoriaconsultec.com.br
+0 1 1 588 1 1701416086
+/
+34.18.29.34.bc.googleusercontent.com
+0 5 5 111635 1 1701956949
+/
+104-168-40-220-host.colocrossing.com
+0 4 3 434326 1 1701914280
+/Time_Series/_site/SARIMAX.html
+msnbot-40-77-167-143.search.msn.com
+0 1 1 397059 1 1701935033
+/Time_Series/_site/Data_Visualization.html
+159.223.223.212
+0 1 1 588 1 1702120365
+/
+172-233-157-36.ip.linodeusercontent.com
+0 2 1 588 1 1701884421
+/
+166.115.133.34.bc.googleusercontent.com
+0 5 5 111635 1 1701611973
+/
+rac-server.rodgersandco.co.nz
+0 48 1 588 1 1701681930
+-
+104.224.66.5.colocationamerica.com
+0 1 1 0 1 1701925392
+/
+msnbot-207-46-13-229.search.msn.com
+0 2 0 0 0 0
+-
+64.215.225.35.bc.googleusercontent.com
+0 5 5 111635 1 1701699547
+/
+224.184.173.34.bc.googleusercontent.com
+0 5 5 111635 1 1701452037
+/
+90.63.71.34.bc.googleusercontent.com
+0 5 5 111635 1 1701528772
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+159.223.223.212
+0 1 1 588 1 1702120365
+/
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 80
+http://jrs.georgetown.domains/
+0 15
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.309.0 Safari/532.9
+0 3
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+0 4
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.104 Safari/537.36
+0 6
+Go-http-client/1.1
+0 50
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.19
+0 4
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.514.0 Safari/534.7
+0 3
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:112.0) Gecko/20100101 Firefox/112.0
+0 4
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7;en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17
+0 3
+Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.10.1
+0 3
+python-requests/2.31.0
+0 6
+Mozilla/5.0 (Linux; Android 7.0; LG-H918 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safa
+0 3
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 OPR
+0 3
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+0 2
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

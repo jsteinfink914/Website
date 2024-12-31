@@ -1,0 +1,455 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+    margin-left:225px;
+    margin-right:225px;
+	}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+.tabs{overflow:hidden;
+      background-color:black;
+      padding:15px 60px;
+      
+}
+.tabs a{float:left;
+        background-color:inherit;
+        color:white;
+        font-size:15px;
+        padding: 14px 16px;
+        text-align:center;
+        text-decoration:none;}
+.tabs a:hover{background-color:grey;
+              color:black;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US style='word-wrap:break-word'>
+<div class="tabs">
+<a href="index.html">Home</a>
+<a href="AboutJake.html">About Jake</a>
+<a href="Projects.html">Projects</a>
+</div>
+<div class=WordSection1>
+<br>
+<br>
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN
+style='font-size:15.0pt;line-height:115%;font-family:"Times New Roman",serif'>Onside
+Kick vs. 4th and 15: An optionality Proposal for the NFL</span></p>
+
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:200%'><u><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>Introduction</span></u></p>
+
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>            With
+the game on the line and down by one possession after scoring a touchdown in
+the NFL, a team has minimal opportunity to get the ball back without much time
+going off the clock. In fact, there is only one option open to a team to regain
+possession immediately: the onside kick. When a team does this, the kicker
+attempts to kick the ball more than 10 yards (to avoid a penalty) but close
+enough where their own team can recover the ball before the opposing team does.
+When expecting it, the opposing team will go into an onside kick formation and
+stack their players in the likely recovery zone. One can imagine that the
+probability of executing this desperation play is low, and this is true as it
+converts on average 13.3% of the time since 2012, according to my own analysis.
+However, this is no longer the case since the rules changed in the 2018 NFL
+season. In an effort to reduce concussions and make kickoffs safer in general,
+the NFL decided to no longer allow the kicking team to get a running start
+through the 35 yard line, and instead they must remain stationary until the
+ball is kicked.<a href="#_ftn1" name="_ftnref1" title=""><sup><sup><span
+lang=EN style='font-size:13.0pt;line-height:115%;font-family:"Times New Roman",serif'>[1]</span></sup></sup></a>
+To be sure, this policy has been effective as it has led to a 38% reduction in
+concussions suffered on kickoffs.<a href="#_ftn2" name="_ftnref2" title=""><sup><sup><span
+lang=EN style='font-size:13.0pt;line-height:115%;font-family:"Times New Roman",serif'>[2]</span></sup></sup></a>
+However, it also neutralized the effectiveness of the onside kick. More numbers
+will be discussed later, but the conversion rate has dropped significantly
+since the change, from 15.1% to 10.5%. </span></p>
+
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>            Knowing
+of this effect, the Philadelphia Eagles proposed a possible rule change in 2019
+and again in 2020. They wanted to allow teams to run a 4th and 15 play from
+their own 25 yard line in lieu of an onside kick.<a href="#_ftn3"
+name="_ftnref3" title=""><sup><sup><span lang=EN style='font-size:13.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>[3]</span></sup></sup></a>
+Importantly, the play would be an untimed down and if a penalty hurting the
+offense were to occur (imagine a5 yard false start penalty) the team would
+still have to carry out the attempt from their new down and distance (in this
+case, a 4th and 20 from their own 20 yard line). The proposal has been tabled
+both times, but there has been discussion on it, and some think it will provide
+an injection of excitement to late-game situations. This document aims to add
+further credence to the proposal.</span></p>
+
+<p class=MsoNormal style='line-height:200%'><u><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>Methodology</span></u></p>
+
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>            To
+perform the analysis on the onside kick, 4th down option policy, the
+open-source programming software R was used. Data was pulled from the nflreadr
+library which is a package meant for easy access to the nflverse project, a set
+of packages meant to provide data for the NFL.<a href="#_ftn4" name="_ftnref4"
+title=""><sup><sup><span lang=EN style='font-size:13.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>[4]</span></sup></sup></a> Using this
+package, play-by-play data could be obtained. For the project, data from
+2012-2021 NFL seasons was collected (2012 was when the kickoff yardline was
+pushed forward from the 30 to the 35 and touchbacks were moved from the 20 to
+the 25 yard line). </span></p>
+
+<p class=MsoNormal style='text-indent:.5in;line-height:200%'><span lang=EN
+style='font-size:13.0pt;line-height:200%;font-family:"Times New Roman",serif'>To
+isolate onside kick data, every play (row entry) has a column called “play
+type.” Taking only plays with “kickoff” as the play type and containing the
+word “Onside”  in the description column allowed for the isolation of the 609
+onside kick attempts since 2012. For determining whether or not the onside kick
+was recovered, the description column, thankfully, contained the word
+“RECOVERED” in all caps if the kick was indeed recovered. This signal </span></p>
+
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>as used to create
+a binary variable where 1 equals a recovered onside kick and 0, a non-recovered
+onside kick.</span></p>
+
+<p class=MsoNormal style='text-indent:.5in;line-height:200%'><span lang=EN
+style='font-size:13.0pt;line-height:200%;font-family:"Times New Roman",serif'>To
+isolate 4th down data, a column called “down” was used which stored the current
+down. Taking only the rows where down equals 4 yields 41,192 4th down attempts
+since 2012. From there, 5 yard intervals were taken and used for the analysis
+(4th and 1-5, 6-10,11-15,16-20,20-25). Importantly, many 4th down plays are
+punts, so it was critical to filter out plays that were not “pass” or “run”
+plays as listed in the “play type” column. Lastly, a column called “first down”
+represents a binary variable where 1 indicates a successful first down, and 0 a
+turnover on downs.</span></p>
+
+<p class=MsoNormal style='line-height:200%'><u><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>Results</span></u></p>
+
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>            The
+first step in performing the analysis is to look at onside kicks, both the
+number of attempts and conversion rates over time.  </span></p>
+
+<p class=MsoNormal><span lang=EN style='font-size:13.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<br>
+<br>
+
+
+<p class=MsoNormal style='margin-left:350px;margin-right:300px;'><img width=700 height=500
+src="DS_Images/Attempts.png" align=middle
+alt="Chart, bar chart&#10;&#10;Description automatically generated"></p>
+
+<br>
+<br>
+
+<p class=MsoNormal style='margin-left:350px;margin-right:300px;'><img width=700 height=500 src="DS_Images/Conversion.png"
+align=middle
+alt="Chart, bar chart&#10;&#10;Description automatically generated"></p>
+
+<br>
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>In the first chart
+we see that onside kick attempts have remained relatively consistent, around 60
+each year. The rule changes in 2018 did not seem to have much of an effect on
+attempts, which makes sense; a desperate team is still going to attempt an onside
+kick no matter the odds because it is their only option. However, in the bottom
+chart one can see that after the rule change, the onside kick conversion rate
+seems to drop. To see if this is significant, a hypothesis testing procedure
+must be performed where the null hypothesis is that the onside kick conversion
+rates before and after the rule change are equivalent.</span></p>
+<br>
+<p class=MsoNormal style='line-height:200%;margin-left:335px;margin-right:300px;'><img width=765 height=450
+src="DS_Images/Pre_Post.png" align=middle 
+alt="Chart, histogram&#10;&#10;Description automatically generated"></p>
+
+<br>
+
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>A z-score of 1.96
+represents a 5% probability the two are equivalent, while a z-score of 1.645
+represents a 10% probability. The z-score in this case is 1.7166, which is
+significant at the 10% level and with more samples could be significant at the
+5% level. The difference in mean conversion rate pre 2018 and post 2018 is
+4.67%, as it dropped from 15.1% to 10.5%.</span></p>
+
+<p class=MsoNormal style='text-indent:.5in;line-height:200%'><span lang=EN
+style='font-size:13.0pt;line-height:200%;font-family:"Times New Roman",serif'>Switching
+gears to 4th down data, groups were made in 5 yard intervals from 4th and 1-5
+to 4th and 20-25. Conversion rates and attempts are plotted below.</span></p>
+
+<p class=MsoNormal style='line-height:200%;margin-left:325px;margin-right:300px;'><img width=765 height=500
+src="DS_Images/Fourth.png" align=middle alt="Chart, histogram&#10;&#10;Description automatically generated"></p>
+<br>
+
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>Unsurprisingly, as
+the yardage increases, attempts and conversion percentage drop precipitously.
+For the purposes of this analysis, it is clear that only 4th and 15-20 and
+20-25 are worth considering by virtue of the conversion percentages in
+comparison to onside kicks, 16.4% and 10.5% respectively.  </span></p>
+
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>            Now a
+comparison of the 4th down situations of interest and onside kick rates must be
+performed. The same procedure that was used to compare pre and post 2018 onside
+kick rates will be used here. A t-test is a simple tool, but very powerful for
+showing whether or not two distributions share a statistical mean.</span></p>
+
+<br>
+<br>
+
+<p class=MsoNormal style='line-height:200%;margin-left:335px;margin-right:300px;'><img width=765 height=450
+src="DS_Images/Null_Pre.png" align=middle 
+alt="Chart, histogram&#10;&#10;Description automatically generated"></p>
+
+<br>
+<br>
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>Both 4th
+and 15-20 and 20-25 both cannot be ruled out as having equal means as that of
+the new onside kick conversion rate. For context, since 2018 there have been
+239 onside kicks whereas there have been 140 4th and 15-20 and 57 4th and 20-25
+attempts since 2012. Both 4th down
+scenarios are not statistically significantly different at either the 95% or
+90% level, although 4th and 15-20 is quite close (1.61 vs. 1.645). </span></p>
+
+<br>
+<p class=MsoNormal style='line-height:200%;margin-left:335px;margin-right:300px;'><img width=765 height=450
+src="DS_Images/Null_Post.png" align=middle
+alt="Chart, histogram&#10;&#10;Description automatically generated"><span
+lang=EN style='font-size:13.0pt;line-height:200%;font-family:"Times New Roman",serif'>            </span></p>
+
+<br>
+<br>
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>Moreover, the same
+test provides similar results when comparing against pre-2018 onside kick
+rates. Given that the pre-2018 rate is higher than post-2018 the rightward
+shift within the t-score distribution is unsurprising, as the Onside kick
+conversion rate was greater.</span></p>
+
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>In this
+comparison, we see that both 4th down scenarios are not statistically significantly
+different from pre-2018 onside kick rates, and this can be said with more
+confidence for 4th and 15-20 attempts now then with post-2018 onside kick
+rates.</span></p>
+
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>            According
+to Bizzozero, surprise and suspense are statistically significant predictors of
+audience size. Additionally, he found that “both suspense and surprise generate
+even more entertainment value during a match’s later moments, i.e., when the
+stakes are higher.”<a href="#_ftn5" name="_ftnref5" title=""><sup><sup><span
+lang=EN style='font-size:13.0pt;line-height:115%;font-family:"Times New Roman",serif'>[5]</span></sup></sup></a>
+Buraimo et. al, supports these findings and determines that there is an
+economically significant effect that comes from comparing an “exciting” game to
+a traditional one in terms of audience size.<a href="#_ftn6" name="_ftnref6"
+title=""><sup><sup><span lang=EN style='font-size:13.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>[6]</span></sup></sup></a></span></p>
+
+<p class=MsoNormal style='line-height:200%'><u><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>Interpretation</span></u></p>
+
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>            These
+results indicate the usefulness of a potential 4th and 20 option in the NFL.
+Since rule changes in 2018 prevented kicking teams from getting a running
+start, the onside kick conversion rate has dropped significantly (from 15% to
+10%). After investigating 4th down scenarios, specifically from 15-20 yards and
+20-25 yards, it appears that both of these options are statistically similar in
+terms of conversion rate when compared to the new rate of onside kick success.
+In fact, it appears that these options resemble more closely the success rate
+of onside kicks before the rule change. Given that the rule change was meant to
+limit concussions and not to limit late game theatrics, lowering the
+probability of the “desperation chance” was not the intended effect.</span></p>
+
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>            Given
+that NFL teams make the majority of their revenue from ticket sales,<a
+href="#_ftn7" name="_ftnref7" title=""><sup><sup><span lang=EN
+style='font-size:13.0pt;line-height:115%;font-family:"Times New Roman",serif'>[7]</span></sup></sup></a>
+a key driver of revenue growth is increased TV ratings and viewership. More
+viewers means more advertising dollars, and both surprise and suspense have
+been shown to be correlated with increased TV ratings. As a result, improving
+the likelihood that surprising and suspenseful situations will take place can
+lead to significant revenue inflows. Additionally, it has been shown that
+commercials will be more effective following surprising and suspenseful
+moments, and as a result these slots can be sold for more money.<a href="#_ftn8"
+name="_ftnref8" title=""><sup><sup><span lang=EN style='font-size:13.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>[8]</span></sup></sup></a>
+Thus boosting late game surprise and suspense is one of the most economically
+efficient ways to boost TV revenue as the marginal effects at the end of games
+loom the largest. By allowing for a 4th and 15 attempt, surprise and suspense
+will increase as late game comebacks will have a higher probability ascribed to
+them. Beyond simply improving revenue, the fan experience may benefit from the
+prospect of more intense competition. </span></p>
+
+<p class=MsoNormal style='line-height:200%'><u><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>Conclusion</span></u></p>
+
+<p class=MsoNormal style='line-height:200%'><span lang=EN style='font-size:
+13.0pt;line-height:200%;font-family:"Times New Roman",serif'>            Money
+matters in the NFL and TV dollars are the main source of revenue. Improving TV
+ratings presents a clear pathway towards improving revenues and increasing
+surprise and suspense in games is a sound strategy to utilize in pursuit of
+this goal. Introducing a 4th and 15 option in lieu of an onside kick will
+return to the losing team an opportunity to make a late game comeback with
+similar likelihood as the pre-2018 onside kick while potentially boosting TV
+revenues. This proposal has the potential to benefit owners, players, and fans.
+As a result, a one year trial period in which teams can take the 4th and 15
+option should be considered. </span></p>
+
+<p class=MsoNormal><span lang=EN>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN>&nbsp;</span></p>
+
+</div>
+
+<div><br clear=all>
+
+<hr align=left size=1 width="33%">
+
+<div id=ftn1>
+
+<p class=MsoNormal><a href="#_ftnref1" name="_ftn1" title=""><sup><span
+lang=EN><sup><span lang=EN style='font-size:11.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>[1]</span></sup></span></sup></a><span lang=EN
+style='font-size:10.0pt;line-height:115%'> </span><span lang=EN
+style='font-size:10.0pt;line-height:115%;font-family:"Times New Roman",serif'>Abdeldaiem,
+A. (2019, November 1). <i>NFL's new kickoff rules made permanent, explained</i>.
+Sports Illustrated. Retrieved May 3, 2022, from
+https://www.si.com/.amp/nfl/2019/03/26/kickoff-rule-changes-made-permanent-explained
+</span></p>
+
+</div>
+
+<div id=ftn2>
+
+<p class=MsoNormal><a href="#_ftnref2" name="_ftn2" title=""><sup><span
+lang=EN><sup><span lang=EN style='font-size:11.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>[2]</span></sup></span></sup></a><span lang=EN
+style='font-size:10.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+Abdeldaiem, A. (2019, March 1). <i>NFL reports drop in concussions on kickoffs
+in 2018</i>. Sports Illustrated. Retrieved May 3, 2022, from
+https://www.si.com/nfl/2019/03/01/concussions-decrease-kickoffs-head-injuries-reduced
+</span></p>
+
+</div>
+
+<div id=ftn3>
+
+<p class=MsoNormal><a href="#_ftnref3" name="_ftn3" title=""><sup><span
+lang=EN><sup><span lang=EN style='font-size:11.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>[3]</span></sup></span></sup></a><span lang=EN
+style='font-size:10.0pt;line-height:115%'> </span><span lang=EN
+style='font-size:10.0pt;line-height:115%;font-family:"Times New Roman",serif'>Jeff
+Kerr Mar 4. (2021, March 4). <i>Eagles make another attempt at onside kick
+alternative and data shows NFL is better with 4th-and-15 attempt</i>. CBSSports.com.
+Retrieved May 3, 2022, from
+https://www.cbssports.com/nfl/news/eagles-make-another-attempt-at-onside-kick-alternative-and-data-shows-nfl-is-better-with-4th-and-15-attempt/
+</span></p>
+
+<p class=MsoNormal style='line-height:normal'><span lang=EN style='font-size:
+10.0pt'>&nbsp;</span></p>
+
+</div>
+
+<div id=ftn4>
+
+<p class=MsoNormal><a href="#_ftnref4" name="_ftn4" title=""><sup><span
+lang=EN><sup><span lang=EN style='font-size:11.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>[4]</span></sup></span></sup></a><span lang=EN
+style='font-size:10.0pt;line-height:115%'> </span><span lang=EN
+style='font-size:10.0pt;line-height:115%;font-family:"Times New Roman",serif'>Comprehensive
+R Archive Network (CRAN). (2022, March 17). <i>Download 'nflverse' data [R
+package nflreadr version 1.2.0]</i>. The Comprehensive R Archive Network.
+Retrieved May 3, 2022, from
+https://cran.r-project.org/web/packages/nflreadr/index.html </span></p>
+
+<p class=MsoNormal style='line-height:normal'><span lang=EN style='font-size:
+10.0pt'>&nbsp;</span></p>
+
+</div>
+
+<div id=ftn5>
+
+<p class=MsoNormal><a href="#_ftnref5" name="_ftn5" title=""><sup><span
+lang=EN><sup><span lang=EN style='font-size:11.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>[5]</span></sup></span></sup></a><span lang=EN
+style='font-size:10.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+Bizzozero, P., Flepp, R., &amp; Franck, E. (2016). The importance of suspense
+and surprise in entertainment demand: Evidence from wimbledon. <i>Journal of
+Economic Behavior &amp; Organization</i>, <i>130</i>, 47–63.
+https://doi.org/10.1016/j.jebo.2016.07.006 </span></p>
+
+</div>
+
+<div id=ftn6>
+
+<p class=MsoNormal><a href="#_ftnref6" name="_ftn6" title=""><sup><span
+lang=EN><sup><span lang=EN style='font-size:11.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>[6]</span></sup></span></sup></a><span lang=EN
+style='font-size:10.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+Buraimo, B., Forrest, D., McHale, I. G., &amp; Tena, J. D. (2019). Unscripted
+drama: Soccer audience response to suspense, surprise, and shock. <i>Economic
+Inquiry</i>, <i>58</i>(2), 881–896. https://doi.org/10.1111/ecin.12874 </span></p>
+
+</div>
+
+<div id=ftn7>
+
+<p class=MsoNormal><a href="#_ftnref7" name="_ftn7" title=""><sup><span
+lang=EN><sup><span lang=EN style='font-size:11.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>[7]</span></sup></span></sup></a><span lang=EN
+style='font-size:10.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+Eckstein, J. (2022, January 30). <i>How the NFL makes money: TV is king,
+streaming and gambling on Horizon</i>. Investopedia. Retrieved May 3, 2022, from
+https://www.investopedia.com/articles/personal-finance/062515/how-nfl-makes-money.asp
+</span></p>
+
+</div>
+
+<div id=ftn8>
+
+<p class=MsoNormal><a href="#_ftnref8" name="_ftn8" title=""><sup><span
+lang=EN><sup><span lang=EN style='font-size:11.0pt;line-height:115%;font-family:
+"Arial",sans-serif'>[8]</span></sup></span></sup></a><span lang=EN
+style='font-size:10.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+Bizzozero</span></p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

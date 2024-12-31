@@ -1,0 +1,31 @@
+/* css styles */
+/* shrink the font size of the navbar items */
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: .8em;
+}
+
+/* Change background color and font color on hover */
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Change background color and font color when active */
+.navbar .navbar-nav .nav-item .nav-link.active {
+    background-color: black;
+    color: white;
+}
+
+/* make the title text take up more width */
+.navbar-brand {
+    width:12%;
+    display:inline-block;
+}
+
+/* smaller font-size for small screens */
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        width:50%;
+        display:inline-block;
+    }
+}

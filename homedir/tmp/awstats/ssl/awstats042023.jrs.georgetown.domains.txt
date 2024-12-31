@@ -1,0 +1,388 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202304 will be lost/reset.
+# Last config file used to build this data file was /home/jrsgeor2/tmp/awstats/ssl/awstats.jrs.georgetown.domains.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2023                
+POS_TIME 2682                
+POS_VISITOR 7527                
+POS_DAY 8766                
+POS_DOMAIN 3411                
+POS_LOGIN 3716                
+POS_ROBOT 3871                
+POS_WORMS 4451                
+POS_EMAILSENDER 4582                
+POS_EMAILRECEIVER 4725                
+POS_SESSION 9408                
+POS_SIDER 9598                
+POS_FILETYPES 4860                
+POS_DOWNLOADS 5097                
+POS_OS 5178                
+POS_BROWSER 5419                
+POS_SCREENSIZE 5817                
+POS_UNKNOWNREFERER 5891                
+POS_UNKNOWNREFERERBROWSER 6016                
+POS_ORIGIN 6136                
+POS_SEREFERRALS 6273                
+POS_PAGEREFS 6446                
+POS_SEARCHWORDS 6656                
+POS_KEYWORDS 6808                
+POS_MISC 2346                
+POS_ERRORS 6867                
+POS_CLUSTER 3572                
+POS_SIDER_404 6963                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230501221210 1 0 11920971716313
+FirstTime 0
+LastTime 20230429163636
+LastUpdate 20230502124302 1 0 0 0 0
+TotalVisits 46                  
+TotalUnique 28                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 30                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 1 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 12 7184943 21 25 4039638
+1 0 1 3584011 3 6 132718
+2 0 0 0 4 7 4443
+3 4 57 10348007 35 40 17805257
+4 22 187 47064429 7 16 98086
+5 1 7 1096337 9 14 24148
+6 1 2 3584599 10 12 77988
+7 0 0 0 0 1 0
+8 1 3 217744 5 10 69288
+9 11 55 26083709 5 7 588
+10 0 0 0 7 9 18195
+11 4 10 7135283 2 15 411134
+12 2 2 1176 4 17 14156
+13 5 5 4500340 2 6 2469
+14 13 71 12295099 1 3 14220
+15 1 2 3584011 7 12 62203
+16 5 9 5420305 1 4 9600
+17 4 38 4750233 3 5 74991
+18 5 28 2066325 5 7 33370
+19 43 117 40831301 1 3 52
+20 4 38 4764028 7 13 787658
+21 1 1 785131 1 5 110459
+22 32 52 26514293 5 8 39693
+23 4 29 9879281 4 9 16245
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 161 700 207084287
+ru 4 12 7155144
+cn 3 10 7080979
+gb 1 1 41366
+hr 0 2 217156
+se 0 1 108578
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+SemrushBot/ 36 5663802 20230425152838 0
+Konqueror/ 31 17765200 20230413035927 0
+Go\-http\-client/ 16 93737 20230412183613 0
+no_user_agent 15 8820 20230430000109 0
+Googlebot/ 12 9876 20230429201344 0
+bingbot/ 3 5210 20230418101546 0
+LinkedInBot/ 2 217156 20230417013057 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 588 20230428104713 0
+bot[\s_+:,\.\;\/\\-] 1 14220 20230406111458 0
+survey 1 588 20230408044005 0
+facebookexternalhit/ 1 66431 20230408042035 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+htm 5 139188 0 0
+php 2 25291 0 0
+png 230 35668684 0 0
+html 161 95113527 0 0
+css 103 6645683 0 0
+jpg 23 16987654 0 0
+Unknown 1 12903 0 0
+js 194 66520585 0 0
+pdf 7 573995 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/Steinfink_Resume.pdf 7 3 573995
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+androidoreo 10 3
+macosx9 3 3
+macosx15 517 54
+ios_iphone 4 4
+macosx11 6 6
+Unknown 1 1
+win2000 2 2
+winxp 2 2
+macosx 31 31
+win7 3 3
+win8.1 2 2
+linux 2 2
+win10 144 56
+android 2 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 20
+chrome87.0.4280.88 10 3
+chrome36.0.1985.125 3 3
+Unknown 1 1
+firefox111.0 78 5
+msie11.0 1 1
+firefox109.0 1 1
+safari16.0 3 3
+chrome112.0.0.0 252 38
+firefox82.0 1 1
+safari4.0 2 2
+firefox43.0 6 6
+chrome102.0.0.0 2 2
+safari16.4 1 1
+chrome20.0.1132.57 1 1
+msie9.0 2 2
+edge13 32 32
+opera9.21 2 2
+chrome111.0.0.0 285 27
+mozilla 33 33
+chrome107.0.0.0 13 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+python-requests/2.23.0 20230403003111
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+python-requests/2.23.0 20230403003111
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 101 107
+From1 0 0
+From2 5 8
+From3 5 5
+From4 58 609
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 2 5
+baidu 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://analytics.georgetown.edu/private-coding-tutoring/ 5 5
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 91 0
+401 18 919
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 11
+/apple-touch-icon.png 9 -
+/sitemap.xml 4 -
+/Time_Series/_site/SARIMAX.qmd 1 -
+/sitemap.txt 4 -
+/sitemap_index.xml 4 -
+/atom.xml 4 -
+/sitemap.xml.gz 4 -
+/apple-touch-icon-precomposed.png 9 -
+/Time_Series/SARIMAX.qmd 1 -
+/sitemaps.xml 4 -
+/robots.txt 47 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 30
+138.88.199.13 39 333 91285669 20230429163636
+172.121.221.122 31 31 17698769 20230409221347
+104.168.124.26 30 30 19520890 20230426193154
+38.42.12.34 12 70 12253733 20230425144406
+216.15.51.29 7 101 20893370 20230410200427
+104.222.18.97 6 27 21399246 20230427113443
+66.44.26.213 5 78 14798680 20230424231308
+148.153.255.37 4 4 50836 20230403003111
+46.232.120.228 4 12 7155144 20230402092719
+172.121.217.75 3 3 4499758 20230405161811
+45.5.67.173 3 3 4499752 20230428131341
+35.242.159.80 2 2 25291 20230414200655
+35.91.207.108 2 2 588 20230405133232
+138.20.184.13 2 2 1176 20230427112710
+35.167.255.89 2 2 588 20230426190116
+35.90.159.251 2 2 588 20230409201055
+54.200.51.13 2 2 588 20230412175022
+138.20.184.12 2 2 1176 20230412120418
+27.115.124.109 2 7 6970520 20230402092933
+172.121.223.116 1 1 0 20230404171916
+194.61.41.81 1 1 41366 20230422165316
+3.97.114.164 1 1 0 20230418151452
+13.39.109.181 1 1 588 20230421062125
+42.236.10.125 1 3 110459 20230402092817
+38.64.101.82 1 1 588 20230419081553
+81.235.141.47 0 1 108578 
+209.146.23.178 1 1 41366 20230403144759
+38.64.102.78 1 1 588 20230420093316
+93.141.123.218 0 2 217156 
+141.161.133.12 1 3 110459 20230424231455
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20230402 7 22 14236123 3
+20230403 5 5 92202 2
+20230404 1 1 0 1
+20230405 5 5 4500346 2
+20230408 20 151 41623398 2
+20230409 35 89 31264526 4
+20230410 3 52 18887753 2
+20230411 1 8 4312151 1
+20230412 5 33 4714655 3
+20230413 1 24 4712891 1
+20230414 2 2 25291 1
+20230416 10 72 16194748 3
+20230417 0 1 3584011 0
+20230418 1 2 108578 1
+20230419 1 1 588 1
+20230420 3 9 7134695 2
+20230421 1 3 217744 1
+20230422 1 1 41366 1
+20230423 3 55 9695245 1
+20230424 3 26 5213894 2
+20230425 12 70 12253733 1
+20230426 32 32 19521478 2
+20230427 10 40 15424212 4
+20230428 5 15 6399014 3
+20230429 2 7 1531943 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+15mn-30mn 1
+30s-2mn 5
+5mn-15mn 3
+2mn-5mn 1
+0s-30s 36
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 32
+/ 40 111242 28 15
+/Time_Series/_site/SARIMAX.html 14 863275 6 6
+/Time_Series/_site/Deep_Learning.html 12 2886091 4 6
+/Time_Series/_site/ARMA_ARIMA_SARIMA.html 11 44991532 2 4
+/Time_Series/_site/Financial.html 11 7850998 2 3
+/Time_Series/_site/ 9 85815 2 0
+/AboutJake.html 8 29952 0 5
+/Projects.html 7 6146 1 0
+/Time_Series/_site/about.html 4 45990 0 1
+/Time_Series/_site/EDA.html 4 15393200 0 0
+/Time_Series/_site/Spectral.html 4 34196 0 0
+/Time_Series/_site/Introduction.html 4 52724 0 1
+/Time_Series/_site/Data_Sources.html 3 19770284 0 0
+/Data%20Structures_%20Executive%20Summary%20Report.htm 3 92112 0 1
+/Time_Series/_site/Conclusions.html 3 1442356 0 1
+/Time_Series/_site/Data_Visualization.html 3 1191187 0 0
+/DataCleaning.html 2 46896 0 0
+/DecisionTrees.html 2 48362 0 0
+/ExploringData.html 2 18664 0 0
+/xmlrpc.php 2 25291 1 1
+/Introduction.html 2 14930 0 1
+/ARMandNetworking.html 2 34850 0 0
+/4th.htm 2 47076 0 0
+/Clustering.html 2 58082 0 0
+/Conclusions.html 2 18912 0 0
+/issmall/ 1 12645 0 0
+/NaiveBayes.html 2 30850 0 0
+/data%3Aimage/x-icon%3Bbase64%2CAAABAAEAICAAAAEAIADSAgAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAAgAAAAIAgGAAAAc3p69AAAAplJREFUWIXt1j2IHGUYB/DfOzdnjIKFkECIVWIKvUFsIkRExa9KJCLaWAgWJx4DilZWgpDDiI0wiViIoGATP1CCEDYHSeCwUBBkgiiKURQJFiLo4d0eOxYzC8nsO9m9XcXC%2B8MW%2B3z%2B9/l6l2383xH%2BiSBpElyTdoda26xsDqp/h0CVZ3vwKm7tMBngAs7h7eRYebG6hMtMBHbMBX89vfARHprQ5U8cwdFQlIOZCVR5di1%2Bw/wWXT/EY6EoN5NZCODuKZLDwzgSMCuBe2fwfX6QZwtpWzqfBBtLC3txF/ZhxKbBGx0EfsTJS77vwmGjlZrD4mUzUOXZjVjGI65cnTXchB8iupdDUb7QinsQZ7GzZftdQj2JVZ49iC/w6JjksIo7OnS9tiA5Vn6GtyK2%2B1MY5NkhfGDygVrBAxH5WkPuMjR7/3UsUFLl2Q68s4XkA3ws3v9zoSjX28Kr5wL1xrTxa6ou%2Bf6OZGvqPg9v1wZeaUjcELE/DVfNhWFSvy/enOIZ9eq1sTokEMNLWI79oirP8g6fXpVnh7GEvY1sV/OJ4f0UhyKKk6EoX4x5pEkgXv6L6OM99YqNw/c4kXSwG5nkIfpLCynuiahW1GWeJHkfT4aiXO9atz1XcD6I6yLyHu6bIPk6Hg9FeYZ63y9EjBarPDvQ8VJ1nd9V3D4m%2BRncForyxFCQ4hSeahlej88Hefauurdwaufr5z/F/ZHAX6nL%2BmZE18e36IWiHLkFocqzW9QXcNz1%2BwUHxJ/f10JRPjvGP4pk/vj5L3F8AtufdD%2B/p6dJDknzX%2B05fDLGtife/766t9MRgFCUffWTudwE3AqBlVCUf0xLYGTQqzzbhydwJ3Y34g318J1tmX%2BDPBTlz9MS2MY2/nP8DTGaqeTDf30rAAAAAElFTkSuQmCC 1 12903 0 1
+/SVM.html 2 31314 0 0
+/test_404_page/ 1 12654 0 0
+/NBA.html 2 1940 0 0
+/DataGathering.html 2 28440 0 0
+END_SIDER

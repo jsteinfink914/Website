@@ -1,0 +1,29 @@
+; cPanel first:98.0.6 (update_time):1663336035 Cpanel::ZoneFile::VERSION:1.3 hostname:gtown.reclaimhosting.com latest:102.0.21
+; Zone file for jrs.georgetown.domains
+$TTL 14400
+jrs.georgetown.domains.	86400	IN	SOA	ns1.reclaimhosting.com.	info.reclaimhosting.com.	(
+						2021082902 ;Serial Number
+						3600 ;refresh
+						1800 ;retry
+						1209600 ;expire
+						86400	)
+
+jrs.georgetown.domains.	86400	IN	NS	ns1.reclaimhosting.com.
+jrs.georgetown.domains.	86400	IN	NS	ns2.reclaimhosting.com.
+
+
+jrs.georgetown.domains.	14400	IN	A	198.211.108.9
+
+jrs.georgetown.domains.	14400	IN	MX	0	jrs.georgetown.domains.
+
+mail	14400	IN	CNAME	jrs.georgetown.domains.
+www	14400	IN	CNAME	jrs.georgetown.domains.
+ftp	14400	IN	A	198.211.108.9
+jrs.georgetown.domains.	14400	IN	TXT	"v=spf1 +a +mx +ip4:198.211.108.9 ~all"
+cpcontacts	14400	IN	A	198.211.108.9
+whm	14400	IN	A	198.211.108.9
+webmail	14400	IN	A	198.211.108.9
+cpanel	14400	IN	A	198.211.108.9
+cpcalendars	14400	IN	A	198.211.108.9
+webdisk	14400	IN	A	198.211.108.9
+default._domainkey	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwbDj2y/HQfpotIzNJ0ztUvrrJbhZC6o2rTNQinyOE2xFvEM/G5nRjCoProlty6F9kv+qEslPCxXe/6iqw+yyzqOACKBjKj5dL/Tr/SkbB6bYsueP23o+Io+SLlFpKNON/S9F81JLrjcsZjzUgK4m7Wf91QUq8lTr7GN0QmYfNyQBw6a1hVmDwlAVYkSDZElbQ" MaKIBPa8xi+9El5oPvfTz4Zm+6RAMPUTdgw5xILM5g3bEyC12hiokpTDrLjwFtBQC+4J/ydpiRF+t1qjH8Fr+1ZENzMx/QtRno2zdXJ69ptmsZttxhvpTGq7WvjN/tj9ZnkwpgBVsSXpJtXT5kqbwIDAQAB\;
